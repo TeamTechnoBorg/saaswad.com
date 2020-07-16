@@ -149,7 +149,7 @@ ol {
   min-width: 186px;
   padding: 23px 47px;
   text-transform: uppercase;
-  background: red;
+  background: #ff5733;
   color: #fff;
   line-height: normal;
   cursor: pointer;
@@ -261,7 +261,7 @@ ol {
 }
 
 .accordion-area .panel-header.active .panel-link {
-  background: red;
+  background: #ff5733;
 }
 
 .accordion-area .panel-header.active .panel-link.collapsed {
@@ -342,7 +342,7 @@ ol {
 }
 
 .tab-element .nav-tabs .nav-link.active {
-  background: red;
+  background: #ff5733;
 }
 
 .tab-element .tab-pane p {
@@ -374,7 +374,7 @@ ol {
   margin-top: -20px;
   font-size: 30px;
   font-weight: 300;
-  color: red;
+  color: #ff5733;
 }
 
 .search-model {
@@ -480,7 +480,7 @@ ol {
   color: #fff;
   font-size: 25px;
   border: none;
-  background: red;
+  background: #ff5733;
 }
 
 .search-switch-warp {
@@ -527,7 +527,7 @@ ol {
   height: 7px;
   left: 0;
   bottom: 0;
-  background: red;
+  background: #ff5733;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -560,7 +560,7 @@ ol {
 }
 
 .site-nav-menu ul li .sub-menu li a:hover {
-  color: red;
+  color: #ff5733;
 }
 
 .site-nav-menu ul li .sub-menu li a:after {
@@ -607,7 +607,7 @@ ol {
 .hero-slider .owl-nav button.owl-prev:hover,
 .hero-slider .owl-nav button.owl-next:hover {
   color: #fff;
-  background: red;
+  background: #ff5733;
 }
 
 .hero-slider .owl-nav button.owl-next {
@@ -639,11 +639,11 @@ ol {
   padding-left: 25px;
   padding-bottom: 15px;
   display: inline-block;
-  background: red;
+  /* background: #ff5733; */
 }
 
 .hero-item h2 span:nth-child(1) {
-  color: #081624;
+  /* color: #081624; */
 }
 
 .hero-item h2 span:nth-child(2) {
@@ -716,7 +716,7 @@ ol {
   top: -4px;
   -webkit-box-shadow: 0 0 0 #000;
   box-shadow: 0 0 0 #000;
-  border-top: 4px solid red;
+  border-top: 4px solid #ff5733;
   z-index: -1;
 }
 
@@ -775,17 +775,17 @@ ol {
 
 .feature-box .fb-more-btn {
   display: inline-block;
-  color: red;
+  color: #ff5733;
   font-size: 12px;
   text-transform: uppercase;
-  border: 2px solid red;
+  border: 2px solid #ff5733;
   padding: 15px;
   min-width: 128px;
   text-align: center;
 }
 
 .feature-box .fb-more-btn:hover {
-  background: red;
+  background: #ff5733;
   color: #fff;
 }
 
@@ -872,7 +872,7 @@ ol {
 }
 
 .testimonial-slider .owl-dots .owl-dot.active {
-  background: red;
+  background: #ff5733;
 }
 
 .testimonial {
@@ -911,7 +911,7 @@ ol {
 
 .cta-section {
   padding: 33px 0;
-  background: red;
+  background: #ff5733;
 }
 
 .cta-section h2 {
@@ -1031,7 +1031,7 @@ ol {
   height: 100%;
   right: 0;
   top: 0;
-  color: red;
+  color: #ff5733;
   font-size: 12px;
   border: none;
   background: transparent;
@@ -1059,7 +1059,7 @@ ol {
 }
 
 .footer-social a:hover {
-  background: red;
+  background: #ff5733;
 }
 
 .footer-info-box {
@@ -1097,7 +1097,7 @@ ol {
 }
 
 .copyright a:hover {
-  color: red;
+  color: #ff5733;
 }
 
 .footer-menu {
@@ -1125,7 +1125,7 @@ ol {
   height: 1px;
   left: 0;
   bottom: 0;
-  background: red;
+  background: #ff5733;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -1191,7 +1191,7 @@ ol {
 
 .about-text .sign-info span {
   font-size: 14px;
-  color: red;
+  color: #ff5733;
 }
 
 .milestones-section {
@@ -1236,7 +1236,7 @@ ol {
   font-weight: 300;
   line-height: 0.9;
   margin-bottom: 5px;
-  color: red;
+  color: #ff5733;
 }
 
 .milestone-text p {
@@ -1358,7 +1358,7 @@ ol {
 }
 
 .reserch-tab-menu li.nav-item a.nav-link.active {
-  background: red;
+  background: #ff5733;
 }
 
 .reserch-tab {
@@ -1416,7 +1416,7 @@ ol {
 
 .info-box a {
   font-size: 14px;
-  color: red;
+  color: #ff5733;
   text-decoration: underline;
 }
 
@@ -1451,7 +1451,7 @@ ol {
   height: 100%;
   left: 0;
   top: 0;
-  background: red;
+  background: #ff5733;
 }
 
 .progress-bar-style .bar-inner span {
@@ -1490,7 +1490,7 @@ ol {
   height: 6px;
   left: 0;
   top: 0;
-  background: red;
+  background: #ff5733;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -1510,8 +1510,8 @@ ol {
 }
 
 .sb-widget ul li a:hover {
-  color: red;
-  border-bottom: 1px solid red;
+  color: #ff5733;
+  border-bottom: 1px solid #ff5733;
 }
 
 .sb-widget .sb-search {
@@ -1536,7 +1536,7 @@ ol {
   height: 100%;
   right: 0;
   top: 0;
-  color: red;
+  color: #ff5733;
   font-size: 12px;
   border: none;
   background: transparent;
@@ -1569,7 +1569,7 @@ ol {
   color: #fff;
   padding: 4px 13px;
   line-height: 1.3;
-  background: red;
+  background: #ff5733;
 }
 
 .blog-post {
@@ -1679,7 +1679,7 @@ ol {
 
 .site-pagination a.current {
   color: #fff;
-  background: red;
+  background: #ff5733;
   padding: 13px 15px;
 }
 
@@ -1704,7 +1704,7 @@ ol {
 .map-info {
   max-width: 293px;
   padding: 79px 25px 75px;
-  background: red;
+  background: #ff5733;
   position: relative;
 }
 
@@ -1713,7 +1713,7 @@ ol {
   content: "";
   left: 0;
   bottom: -17px;
-  border-left: 27px solid red;
+  border-left: 27px solid #ff5733;
   border-top: 0px solid transparent;
   border-bottom: 17px solid transparent;
 }
@@ -1778,7 +1778,7 @@ ol {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #ff5733;
 }
 
 .contact-form textarea {
