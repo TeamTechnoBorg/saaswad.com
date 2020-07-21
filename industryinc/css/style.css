@@ -1397,6 +1397,7 @@ ol {
   background: #304a5f;
   padding: 60px 39px 58px;
   margin-bottom: 33px;
+  margin-top: 500px;
 }
 
 .info-box h3 {
@@ -1866,6 +1867,9 @@ ol {
 /* Tablet :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .info-box {
+    margin-top: 20px;
+  }
   .site-navbar {
     text-align: center;
   }
@@ -1950,6 +1954,9 @@ ol {
 /* Large Mobile :480px. */
 
 @media only screen and (max-width: 767px) {
+  .info-box {
+    margin-top: 20px;
+  }
   .header-top {
     padding: 14px 0;
     text-align: center;
@@ -2067,6 +2074,9 @@ ol {
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+  .info-box {
+    margin-top: 20px;
+  }
   .hero-item h2 {
     font-size: 50px;
   }
