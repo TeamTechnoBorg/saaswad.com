@@ -1002,7 +1002,7 @@ ol {
   display: inline-block;
 }
 
-.footer-widget ul li a {
+.footer-widget ul li {
   display: block;
   font-size: 14px;
   color: #718090;
