@@ -35,26 +35,118 @@
     <div id="preloder">
       <div class="loader"></div>
     </div>
+    <!-- Button trigger modal -->
+    <button
+      id="model-trigger"
+      style="display: none;"
+      type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#exampleModalCenter"
+    >
+      Launch demo modal
+    </button>
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Want to do business with us?
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <!-- <label for="exampleInputPassword1">Password</label> -->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">Email address</label> -->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <!-- <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                > -->
+              </div>
+
+              <!-- <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div> -->
+              <button
+                type="submit"
+                style="background-color: red; border-color: red;"
+                class="btn btn-primary"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
     <!-- Header section  -->
     <header class="header-section clearfix">
       <!-- <div class="header-top">
-		  <div class="container-fluid">
-			<div class="row">
-			  <div class="col-md-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			  </div>
-			  <div class="col-md-6 text-md-right">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			  </div>
-			</div>
-		  </div>
-		</div> -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
       <div class="site-navbar">
         <!-- Logo -->
         <a href="index.html" class="site-logo">
           <img src="img/logo_saswad.png" height="80" alt="" />
-          <span style="color: black;">Saaswad</span>
+          <!-- <span style="color: black;">Saaswad</span> -->
         </a>
         <div class="header-right">
           <div class="header-info-box">
@@ -62,7 +154,7 @@
               <img src="img/icons/phone.png" alt="" class="" />
             </div>
             <div class="hib-text">
-              <h6>+91 9919911000</h6>
+              <h6>+91 9839837999</h6>
               <p>info@saaswad.com</p>
             </div>
           </div>
@@ -71,7 +163,7 @@
               <img src="img/icons/map-marker.png" alt="" class="" />
             </div>
             <div class="hib-text">
-              <h6>B-38/47 PR,Tulsipur</h6>
+              <h6>Corporate Office-B-38/47 PR,Tulsipur</h6>
               <p>
                 Mahmoorganj,Varanasi Uttar Pradesh,India-221010
               </p>
@@ -117,7 +209,7 @@
               orci purus, sodales in est quis, blandit sollicitudin est. Nam
               ornare ipsum ac accumsan auctor.
             </p> -->
-            <a href="" class="site-btn">Contact us</a>
+            <a href="#expertise" class="site-btn">Know More</a>
           </div>
         </div>
       </div>
@@ -125,7 +217,7 @@
     <!-- Page top section end  -->
 
     <!-- Services section  -->
-    <section class="services-2-section spad">
+    <section id="expertise" class="services-2-section spad">
       <div class="container">
         <div class="service-text">
           <h2>Our <span style="color: red;">Expertise</span></h2>
@@ -553,6 +645,21 @@
     <!-- Call to action section end  -->
 
     <!-- Footer section -->
+    <div class="footer-buttom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 order-1 order-lg-2 p-0">
+            <ul class="footer-menu text-center">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li class="active"><a href="solutions.html">Products</a></li>
+              <li><a href="blog.html">Facilities</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="footer-section spad">
       <div class="container">
         <div class="row">
@@ -568,11 +675,15 @@
                 <span class="fw-title">Saaswad</span>
               </div>
               <p>
-                We Manufacture 100% Locally and Independentally
+                We introduce ourselves as one of the Leading Manufacturers of
+                Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
+                Air Coolers in India. We are known for manufacturing quality
+                products and providing complete solutions through technical
+                expertise and after-sales service to our customers.
               </p>
               <div class="footer-social">
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-google"></i></a>
                 <!-- <a href=""><i class="fa fa-dribbble"></i></a>
                 <a href=""><i class="fa fa-behance"></i></a> -->
               </div>
@@ -649,16 +760,14 @@
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                All rights reserved | Saaswad
+                | Saaswad Heat Transfer Private Limited
               </div>
             </div>
             <div class="col-lg-7 order-1 order-lg-2 p-0">
               <ul class="footer-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li class="active"><a href="solutions.html">Products</a></li>
-                <li><a href="blog.html">Facilities</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li>
+                  <a href="http://technoborg.in/">Made By - Team Technoborg</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -686,5 +795,20 @@
     <script src="js/circle-progress.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      window.addEventListener("scroll", myFunction);
+      function removeHandler() {
+        window.removeEventListener("scroll", myFunction);
+      }
+      function myFunction() {
+        const scrollable =
+          document.documentElement.scrollHeight - window.innerHeight;
+        const scrolled = window.scrollY;
+        if (scrolled / scrollable >= 0.3) {
+          document.getElementById("model-trigger").click();
+          removeHandler();
+        }
+      }
+    </script>
   </body>
 </html>
