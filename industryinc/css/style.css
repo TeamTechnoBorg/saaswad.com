@@ -2086,6 +2086,7 @@ ol {
   }
   .map-section {
     padding-bottom: 0;
+    padding-top: 20px;
   }
   .map-info {
     max-width: 100%;

@@ -33,12 +33,53 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      #scroll {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        text-indent: -9999px;
+        display: none;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        border-radius: 60px;
+      }
+      #scroll span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -8px;
+        margin-top: -12px;
+        height: 0;
+        width: 0;
+        border: 8px solid transparent;
+        border-bottom-color: #ffffff;
+      }
+      #scroll:hover {
+        background-color: red;
+        opacity: 1;
+        filter: "alpha(opacity=100)";
+        -ms-filter: "alpha(opacity=100)";
+      }
+      .bg-img {
+        width: 100%;
+        padding: 10% 0;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid;
+      }
+    </style>
   </head>
   <body>
     <!-- Page Preloder -->
     <div id="preloder">
       <div class="loader"></div>
     </div>
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
 
     <!-- Header section  -->
     <header class="header-section clearfix">
@@ -402,7 +443,7 @@
                 </div>
                 <div class="fib-text">
                   <p>
-                    +91 9919911000<br />
+                    +91 9839837999<br />
                     info@saaswad.com
                   </p>
                 </div>
@@ -460,5 +501,21 @@
     <script src="js/circle-progress.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            $("#scroll").fadeIn();
+          } else {
+            $("#scroll").fadeOut();
+          }
+        });
+        $("#scroll").click(function () {
+          $("html, body").animate({ scrollTop: 0 }, 600);
+          return false;
+        });
+      });
+    </script>
   </body>
 </html>
