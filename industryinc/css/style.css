@@ -1709,6 +1709,7 @@ ol {
   padding: 79px 25px 75px;
   background: red;
   position: relative;
+  top: 30px;
 }
 
 .map-info::after {

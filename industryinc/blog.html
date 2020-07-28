@@ -112,6 +112,42 @@
         visibility: visible;
         opacity: 1;
       }
+      * {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container_1 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Make the image to responsive */
+.image_1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay_1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container_1:hover .overlay_1 {
+  opacity: 1;
+}
     </style>
   </head>
   <body>
@@ -228,45 +264,115 @@
 
     <div style="margin-top: 100px;" class="row1">
       <div class="column1">
+       
         <div class="img__wrap">
-          <img src="img/punching_machine.jpg" />
-          <h4 class="img__description">Punching Machine</h4>
+          <div class="container_1">
+          <img src="img/punching_machine.jpg" class="image_1" />
+          <div class="overlay_1">PUNCHING MACHINE</div>
         </div>
-
-        <img src="img/bending_machine.jpg" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/cnc_blender_tube.jpg" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/oven.jpg" />
-        <center><h4>Punching Machine</h4></center>
+        </div>
+    <div class="img__wrap">
+      <div class="container_1">
+        <img src="img/bending_machine.jpg" class="image_1"/>
+        <div class="overlay_1">BENDING MACHINE</div>
+      </div>
+    </div>
+    <div class="img__wrap">
+      <div class="container_1">
+      <img src="img/cnc_blender_tube.jpg" class="image_1" />
+      <div class="overlay_1">CNC_BLENDER_TUBE</div>
+    </div>
+    </div>
+    <div class="img__wrap">
+      <div class="container_1">
+      <img src="img/oven.jpg" class="image_1" />
+      <div class="overlay_1">OVEN</div>
+    </div>
+    </div>
+       
       </div>
       <div class="column1">
-        <img src="img/cnc_vertical_machine.jpg" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/facility1.JPG" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/facility2.JPG" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/facility3.JPG" />
-        <center><h4>Punching Machine</h4></center>
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/cnc_vertical_machine.jpg" class="image_1" />
+          <div class="overlay_1">CNC_VERTICAL_MACHINE</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility1.JPG" class="image_1" />
+          <div class="overlay_1">RADIATOR HATCH TEST RIG</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility2.JPG" class="image_1" />
+          <div class="overlay_1">OIL COOLER TEST RIG</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility3.JPG" class="image_1" />
+          <div class="overlay_1">THERMAL CYCLE TEST RIG</div>
+        </div>
+        </div>
+       
       </div>
       <div class="column1">
-        <img src="img/facility4.JPG" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/facility5.JPG" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/facility6.JPG" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/facility7.JPG" />
-        <center><h4>Punching Machine</h4></center>
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility4.JPG" class="image_1" />
+          <div class="overlay_1">WIND TUNNEL</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility5.JPG" class="image_1" />
+          <div class="overlay_1">SALT SPRAY TEST</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility6.JPG" class="image_1" />
+          <div class="overlay_1">ADDITIONAL FACILITIES</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility7.JPG" class="image_1" />
+          <div class="overlay_1">ADDITIONAL FACILITIES</div>
+        </div>
+        </div>
+       
       </div>
       <div class="column1">
-        <img src="img/facility8.JPG" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/shearing_machine.jpg" />
-        <center><h4>Punching Machine</h4></center>
-        <img src="img/facility9.JPG" />
-        <center><h4>Punching Machine</h4></center>
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility8.JPG" class="image_1" />
+          <div class="overlay_1">ADDITIONAL FACILITIES</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/shearing_machine.jpg" class="image_1" />
+          <div class="overlay_1">SHEARING MACHINE</div>
+        </div>
+        </div>
+       
+        <div class="img__wrap">
+          <div class="container_1">
+          <img src="img/facility9.JPG" class="image_1" />
+          <div class="overlay_1">ADDITIONAL FACILITIES</div>
+        </div>
+        </div>
+       
       </div>
     </div>
 
