@@ -1702,6 +1702,7 @@ ol {
 .map-section .container {
   position: relative;
   z-index: 5;
+  top: 30px;
 }
 
 .map-info {
