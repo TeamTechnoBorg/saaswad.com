@@ -1691,7 +1691,9 @@ ol {
 /* ----------------
   Contact Page
  ---------------------*/
-
+ ul.text-white{
+  color:white;
+}
 .map-section {
   position: relative;
   padding: 115px 0 110px;
