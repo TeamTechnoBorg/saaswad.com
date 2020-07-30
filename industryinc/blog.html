@@ -113,44 +113,46 @@
         visibility: visible;
         opacity: 1;
       }
-      * {box-sizing: border-box}
+      * {
+        box-sizing: border-box;
+      }
 
-/* Container needed to position the overlay. Adjust the width as needed */
-.container_1 {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
+      /* Container needed to position the overlay. Adjust the width as needed */
+      .container_1 {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+      }
 
-/* Make the image to responsive */
-.image_1 {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+      /* Make the image to responsive */
+      .image_1 {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
 
-/* The overlay effect - lays on top of the container and over the image */
-.overlay_1 {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
+      /* The overlay effect - lays on top of the container and over the image */
+      .overlay_1 {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
 
-/* When you mouse over the container, fade in the overlay title */
-.container_1:hover .overlay_1 {
-  opacity: 1;
-}
+      /* When you mouse over the container, fade in the overlay title */
+      .container_1:hover .overlay_1 {
+        opacity: 1;
+      }
 
-.bg-img {
+      .bg-img {
         width: 100%;
         padding: 10% 0;
         background-size: cover;
@@ -384,79 +386,78 @@
     </div>
   </section> -->
 
-
-  <section class="reserch-section spad">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <ul class="nav nav-tabs reserch-tab-menu" role="tablist">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                data-toggle="tab"
-                href="#tab-1"
-                role="tab"
-                aria-controls="tab-1"
-                aria-selected="true"
-                >PUNCHING MACHINE </a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-2"
-                role="tab"
-                aria-controls="tab-2"
-                aria-selected="false"
-                >BENDING MACHINE</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-3"
-                role="tab"
-                aria-controls="tab-3"
-                aria-selected="false"
-                >CNC_BLENDER_TUBE</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-4"
-                role="tab"
-                aria-controls="tab-4"
-                aria-selected="false"
-                >SHEARING MACHINE</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-5"
-                role="tab"
-                aria-controls="tab-5"
-                aria-selected="false"
-                >CNC_VERTICAL_MACHINE</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-6"
-                role="tab"
-                aria-controls="tab-6"
-                aria-selected="false"
-                >OVEN</a
-              >
-            </li>
-            <!-- <li class="nav-item">
+    <section class="reserch-section spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <ul class="nav nav-tabs reserch-tab-menu" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  data-toggle="tab"
+                  href="#tab-1"
+                  role="tab"
+                  aria-controls="tab-1"
+                  aria-selected="true"
+                  >PUNCHING MACHINE
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-2"
+                  role="tab"
+                  aria-controls="tab-2"
+                  aria-selected="false"
+                  >BENDING MACHINE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-3"
+                  role="tab"
+                  aria-controls="tab-3"
+                  aria-selected="false"
+                  >CNC_BLENDER_TUBE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-4"
+                  role="tab"
+                  aria-controls="tab-4"
+                  aria-selected="false"
+                  >SHEARING MACHINE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-5"
+                  role="tab"
+                  aria-controls="tab-5"
+                  aria-selected="false"
+                  >CNC_VERTICAL_MACHINE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-6"
+                  role="tab"
+                  aria-controls="tab-6"
+                  aria-selected="false"
+                  >OVEN</a
+                >
+              </li>
+              <!-- <li class="nav-item">
               <a
                 class="nav-link"
                 data-toggle="tab"
@@ -467,243 +468,287 @@
                 >POWDER COATING</a
               >
             </li> -->
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-7"
-                role="tab"
-                aria-controls="tab-7"
-                aria-selected="false"
-                >RADIATOR HATCH TEST RIG</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-8"
-                role="tab"
-                aria-controls="tab-8"
-                aria-selected="false"
-                >OIL COOLER TEST RIG</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-9"
-                role="tab"
-                aria-controls="tab-9"
-                aria-selected="false"
-                >THERMAL CYCLE TEST RIG</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-10"
-                role="tab"
-                aria-controls="tab-10"
-                aria-selected="false"
-                >WIND TUNNEL</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-11"
-                role="tab"
-                aria-controls="tab-11"
-                aria-selected="false"
-                >SALT SPRAY TEST</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="tab"
-                href="#tab-12"
-                role="tab"
-                aria-controls="tab-12"
-                aria-selected="false"
-                >ADDITIONAL FACILITIES</a
-              >
-            </li>
-            
-           
-          </ul>
-        </div>
-        <div class="col-lg-8">
-          <div class="tab-content reserch-tab">
-            <!-- single tab content -->
-            <div
-              class="tab-pane fade show active"
-              id="tab-1"
-              role="tabpanel"
-              aria-labelledby="tab-1"
-            >
-              <h2>
-                PUNCHING MACHINE
-              </h2>
-              <img src="img/punching_machine.jpg" alt="" width="500" />
-             
-             
-            </div>
-            <div
-              class="tab-pane fade"
-              id="tab-2"
-              role="tabpanel"
-              aria-labelledby="tab-2"
-            >
-              <h2>
-                BENDING MACHINE
-              </h2>
-              <img src="img/bending_machine.jpg" alt="" width="500" />
-              
-              
-            </div>
-            <div
-              class="tab-pane fade"
-              id="tab-3"
-              role="tabpanel"
-              aria-labelledby="tab-3"
-            >
-              <h2>
-                CNC_BLENDER_TUBE
-              </h2>
-              <img src="img/cnc_blender_tube.jpg" alt="" width="500" />
-             
-              
-            </div>
-            <div
-              class="tab-pane fade"
-              id="tab-4"
-              role="tabpanel"
-              aria-labelledby="tab-4"
-            >
-              <h2>
-                SHEARING MACHINE
-              </h2>
-              <img src="img/shearing_machine.jpg" alt="" width="600" />
-              
-             
-            </div>
-            <div
-            class="tab-pane fade"
-            id="tab-5"
-            role="tabpanel"
-            aria-labelledby="tab-5"
-          >
-            <h2>
-              CNC_VERTICAL_MACHINE
-            </h2>
-            <img src="img/cnc_vertical_machine.jpg" alt="" width="600" />
-           
-            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-7"
+                  role="tab"
+                  aria-controls="tab-7"
+                  aria-selected="false"
+                  >RADIATOR HATCH TEST RIG</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-8"
+                  role="tab"
+                  aria-controls="tab-8"
+                  aria-selected="false"
+                  >OIL COOLER TEST RIG</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-9"
+                  role="tab"
+                  aria-controls="tab-9"
+                  aria-selected="false"
+                  >THERMAL CYCLE TEST RIG</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-10"
+                  role="tab"
+                  aria-controls="tab-10"
+                  aria-selected="false"
+                  >WIND TUNNEL</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-11"
+                  role="tab"
+                  aria-controls="tab-11"
+                  aria-selected="false"
+                  >SALT SPRAY TEST</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="#tab-12"
+                  role="tab"
+                  aria-controls="tab-12"
+                  aria-selected="false"
+                  >ADDITIONAL FACILITIES</a
+                >
+              </li>
+            </ul>
           </div>
-          <div
-          class="tab-pane fade"
-          id="tab-6"
-          role="tabpanel"
-          aria-labelledby="tab-6"
-        >
-          <h2>
-            OVEN
-          </h2>
-          <img src="img/oven.jpg" alt="" width="500" />
-         
-          
-        </div>
-        <div
-        class="tab-pane fade"
-        id="tab-7"
-        role="tabpanel"
-        aria-labelledby="tab-7"
-      >
-        <h2>
-          RADIATOR HATCH TEST RIG
-        </h2>
-        <img src="img/facility1.JPG" alt="" width="500" />
-       
-        
-      </div>
-      <div
-      class="tab-pane fade"
-      id="tab-8"
-      role="tabpanel"
-      aria-labelledby="tab-8"
-    >
-      <h2>
-        OIL COOLER TEST RIG
-      </h2>
-      <img src="img/facility2.JPG" alt="" width="500" />
-     
-      
-    </div>
-    <div
-    class="tab-pane fade"
-    id="tab-9"
-    role="tabpanel"
-    aria-labelledby="tab-9"
-  >
-    <h2>
-      THERMAL CYCLE TEST RIG
-    </h2>
-    <img src="img/facility3.JPG" alt="" width="500" />
-   
-    
-  </div>
-  <div
-  class="tab-pane fade"
-  id="tab-10"
-  role="tabpanel"
-  aria-labelledby="tab-10"
->
-  <h2>
-    WIND TUNNEL
-  </h2>
-  <img src="img/facility4.JPG" alt="" width="500" />
- 
-  
-</div>
-<div
-      class="tab-pane fade"
-      id="tab-11"
-      role="tabpanel"
-      aria-labelledby="tab-11"
-    >
-      <h2>
-        SALT SPRAY TEST
-      </h2>
-      <img src="img/facility5.JPG" alt="" width="500" />
-     
-      
-    </div>
-    <div
-      class="tab-pane fade"
-      id="tab-12"
-      role="tabpanel"
-      aria-labelledby="tab-12"
-    >
-      <h2>
-        ADDITIONAL FACILITIES
-      </h2>
-      <img src="img/facility6.JPG" alt="" width="300" />
-      <img src="img/facility7.JPG" alt="" width="300" />
-      <img src="img/facility8.JPG" alt="" width="300" />
-      <img src="img/facility9.JPG" alt="" width="3 00" />
-     </div>
+          <div class="col-lg-8">
+            <div class="tab-content reserch-tab">
+              <!-- single tab content -->
+              <div
+                class="tab-pane fade show active"
+                id="tab-1"
+                role="tabpanel"
+                aria-labelledby="tab-1"
+              >
+                <h2>
+                  PUNCHING MACHINE
+                </h2>
+                <img src="img/punching_machine.jpg" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-2"
+                role="tabpanel"
+                aria-labelledby="tab-2"
+              >
+                <h2>
+                  BENDING MACHINE
+                </h2>
+                <img src="img/bending_machine.jpg" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-3"
+                role="tabpanel"
+                aria-labelledby="tab-3"
+              >
+                <h2>
+                  CNC_BLENDER_TUBE
+                </h2>
+                <img src="img/cnc_blender_tube.jpg" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-4"
+                role="tabpanel"
+                aria-labelledby="tab-4"
+              >
+                <h2>
+                  SHEARING MACHINE
+                </h2>
+                <img src="img/shearing_machine.jpg" alt="" width="600" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-5"
+                role="tabpanel"
+                aria-labelledby="tab-5"
+              >
+                <h2>
+                  CNC_VERTICAL_MACHINE
+                </h2>
+                <img src="img/cnc_vertical_machine.jpg" alt="" width="600" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-6"
+                role="tabpanel"
+                aria-labelledby="tab-6"
+              >
+                <h2>
+                  OVEN
+                </h2>
+                <img src="img/oven.jpg" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-7"
+                role="tabpanel"
+                aria-labelledby="tab-7"
+              >
+                <h2>
+                  RADIATOR HATCH TEST RIG
+                </h2>
+                <img src="img/facility1.JPG" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-8"
+                role="tabpanel"
+                aria-labelledby="tab-8"
+              >
+                <h2>
+                  OIL COOLER TEST RIG
+                </h2>
+                <img src="img/facility2.JPG" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-9"
+                role="tabpanel"
+                aria-labelledby="tab-9"
+              >
+                <h2>
+                  THERMAL CYCLE TEST RIG
+                </h2>
+                <img src="img/facility3.JPG" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-10"
+                role="tabpanel"
+                aria-labelledby="tab-10"
+              >
+                <h2>
+                  WIND TUNNEL
+                </h2>
+                <img src="img/facility4.JPG" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-11"
+                role="tabpanel"
+                aria-labelledby="tab-11"
+              >
+                <h2>
+                  SALT SPRAY TEST
+                </h2>
+                <img src="img/facility5.JPG" alt="" width="500" />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab-12"
+                role="tabpanel"
+                aria-labelledby="tab-12"
+              >
+                <h2>
+                  ADDITIONAL FACILITIES
+                </h2>
+                <img src="img/facility6.JPG" alt="" width="300" />
+                <img src="img/facility7.JPG" alt="" width="300" />
+                <img src="img/facility8.JPG" alt="" width="300" />
+                <img src="img/facility9.JPG" alt="" width="3 00" />
+              </div>
+            </div>
           </div>
         </div>
-       
       </div>
-    </div>
-  </section>
+    </section>
     <!-- Blog section end  -->
+    <section id="mission" class="team-section spad">
+      <div class="container">
+        <!-- <div class="team-text">
+          <h2 style="font-weight: bolder;">
+            Our <span style="color: red;">Vision</span>,<span
+              style="color: red;"
+            >
+              Mission</span
+            >
+            and
+            <span style="color: red;">Goal</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            orci purus, sodales in est quis, blandit sollicitudin est. Nam
+            ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo
+            interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Quisque orci purus, sodales in est
+            quis, blandit sollicitudin est.
+          </p>
+        </div> -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="team-member">
+              <!-- <img src="img/team/1.jpg" alt="" /> -->
+              <div class="member-info">
+                <h3 style="font-size: 2rem; margin-bottom: 20px;">
+                  Coorporate Office
+                </h3>
+                <p style="font-size: 1rem;">
+                  Varanasi, India
+                </p>
+                <a href="./coorporate_office.html" class="site-btn"
+                  >Know More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member">
+              <!-- <img src="img/team/1.jpg" alt="" /> -->
+              <div class="member-info">
+                <h3 style="font-size: 2rem; margin-bottom: 20px;">
+                  Unit 3
+                </h3>
+                <p style="font-size: 1rem;">
+                  Varanasi, India
+                </p>
+                <a href="./unit3.html" class="site-btn">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member">
+              <!-- <img src="img/team/1.jpg" alt="" /> -->
+              <div class="member-info">
+                <h3 style="font-size: 2rem; margin-bottom: 20px;">
+                  Unit 4
+                </h3>
+                <p style="font-size: 1rem;">
+                  Pune, India
+                </p>
+                <a href="./unit4.html" class="site-btn">Know More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Call to action section  -->
     <section style="margin-top: 100px;" class="cta-section">
