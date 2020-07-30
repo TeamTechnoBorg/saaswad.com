@@ -36,6 +36,7 @@
     <![endif]-->
     <style>
       #scroll {
+        z-index: 999;
         position: fixed;
         right: 10px;
         bottom: 10px;
@@ -66,12 +67,24 @@
         filter: "alpha(opacity=100)";
         -ms-filter: "alpha(opacity=100)";
       }
-      .bg-img {
-        width: 100%;
-        padding: 10% 0;
+      .container1 {
+        animation: animate 16s ease-in-out infinite;
         background-size: cover;
-        background-position: center;
-        border: 1px solid;
+      }
+      @keyframes animate {
+        0%,
+        100% {
+          background-image: url("./img/home_cover1.jpg");
+        }
+        /* 25% {
+          background-image: url("./img/home_cover2.jpg");
+        } */
+        50% {
+          background-image: url("./img/home_cover2.jpg");
+        }
+        /* 75% {
+          background-image: url("./img/home_cover2.jpg");
+        } */
       }
     </style>
   </head>
@@ -100,6 +113,9 @@
         <!-- Logo -->
         <a href="index.html" class="site-logo">
           <img src="img/logo_saswad.png" height="80" alt="" />
+          <span style="color: black; font-size: large; font-weight: bolder;"
+            >Saaswad</span
+          >
           <!-- <span style="color: black;">Saaswad</span> -->
         </a>
         <div class="header-right">
@@ -144,10 +160,7 @@
     <!-- Hero section  -->
     <section class="hero-section">
       <!-- <div class="hero-slider owl-carousel"> -->
-      <div
-        class="hero-item bg-img"
-        style="background-image: url('img/home_cover1.jpg');"
-      >
+      <div class="hero-item container1">
         <div class="container">
           <div class="row">
             <div class="col-xl-8">
@@ -686,17 +699,6 @@
       </div>
     </div> -->
     <!-- Search model end -->
-    <script>
-      var images = new Array("img/home_cover2.jpg", "img/home_cover1.jpg");
-
-      var slider = setInterval(function () {
-        document
-          .getElementsByClassName("bg-img")[0]
-          .setAttribute("style", 'background-image: url("' + images[0] + '")');
-        images.splice(images.length, 0, images[0]);
-        images.splice(0, 1);
-      }, 3000);
-    </script>
 
     <!--====== Javascripts & Jquery ======-->
     <script src="js/jquery-3.2.1.min.js"></script>
