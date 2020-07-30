@@ -73,16 +73,64 @@
         background-position: center;
         border: 1px solid;
       }
-        .center_1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70px;
-  height: 70px;
-  
-  margin-bottom: 10px;
-}
-      
+      .center_1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70px;
+        height: 70px;
+
+        margin-bottom: 10px;
+      }
+      .header {
+        position: relative;
+        background-color: black;
+        height: 75vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+      }
+
+      .header .container {
+        position: relative;
+        z-index: 2;
+      }
+
+      .header .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: 1;
+      }
+
+      @media (pointer: coarse) and (hover: none) {
+        .header {
+          background: url("https://source.unsplash.com/XT5OInaElMw/1600x900")
+            black no-repeat center center scroll;
+        }
+        .header video {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -111,8 +159,8 @@
         <a href="index.html" class="site-logo">
           <img src="img/logo_saswad.png" height="80" alt="" />
           <span style="color: black; font-size: large; font-weight: bolder;"
-          >Saaswad Heat Transfers Pvt Ltd</span
-        >
+            >Saaswad Heat Transfers Pvt Ltd</span
+          >
           <!-- <span style="color: black;">Saaswad</span> -->
         </a>
         <div class="header-right">
@@ -154,8 +202,29 @@
     </header>
     <!-- Header section end  -->
 
+    <div class="header">
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+      >
+        <source src="videos/saaswad final.mp4" type="video/mp4" />
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 align-items-center">
+          <div class="w-100 text-white">
+            <h2 style="font-weight: 300; color: #fff; margin-bottom: 25px;">
+              About us
+            </h2>
+            <a href="#mission" class="site-btn">Discover</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Page top section  -->
-    <section
+    <!-- <section
       class="page-top-section"
       style="
         min-height: 100%;
@@ -176,7 +245,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Page top section end  -->
 
     <!-- About section -->
@@ -184,7 +253,12 @@
       <div class="container">
         <div class="team-text">
           <h2 style="font-weight: bolder;">
-            Our <span style="color: red;">Vision</span>,<span style="color: red;"> Mission</span> and
+            Our <span style="color: red;">Vision</span>,<span
+              style="color: red;"
+            >
+              Mission</span
+            >
+            and
             <span style="color: red;">Goal</span>
           </h2>
           <!-- <p>
@@ -202,13 +276,13 @@
               <!-- <img src="img/team/1.jpg" alt="" /> -->
               <div class="member-info">
                 <h3 style="font-size: 2rem; margin-bottom: 20px;">
-                  
-                  <img src="icon-fonts/icons-main/company-vision.png" 
-                  class="center_1"
-                  alt="" />
-                  
-                  Our Vision 
-                  
+                  <img
+                    src="icon-fonts/icons-main/company-vision.png"
+                    class="center_1"
+                    alt=""
+                  />
+
+                  Our Vision
                 </h3>
                 <p style="font-size: 1rem;">
                   Our Vision is to be a global leader in the manufacturing of
@@ -224,11 +298,12 @@
               <!-- <img src="img/team/1.jpg" alt="" /> -->
               <div class="member-info">
                 <h3 style="font-size: 2rem; margin-bottom: 20px;">
-                  <img src="icon-fonts/icons-main/mission.png" 
-                  class="center_1"
-                  alt="" />
+                  <img
+                    src="icon-fonts/icons-main/mission.png"
+                    class="center_1"
+                    alt=""
+                  />
                   Our Mission
-                 
                 </h3>
                 <p style="font-size: 1rem;">
                   Our Mission is to build and supply optimized quality heat
@@ -243,11 +318,11 @@
               <!-- <img src="img/team/1.jpg" alt="" /> -->
               <div class="member-info">
                 <h3 style="font-size: 2rem; margin-bottom: 20px;">
-                  
-                  <img src="icon-fonts/icons-main/mission (1).png" 
-                  
-                  class="center_1"
-                  alt="" />
+                  <img
+                    src="icon-fonts/icons-main/mission (1).png"
+                    class="center_1"
+                    alt=""
+                  />
                   Our Goal
                 </h3>
                 <p style="font-size: 1rem;">
@@ -337,11 +412,11 @@
           </div>
           <div class="col-lg-6">
             <div class="about-text">
-              <h2>Director's Remarks</h2>
-              <p>
-                "WE WANT TO GROW AND LOOK TO DEVELOP NEW PRODUCTS TO MEET
+              <h2 style="font-weight: bolder;">Director's Remarks</h2>
+              <p style="font-size: 1.5rem;">
+                " WE WANT TO GROW AND LOOK TO DEVELOP NEW PRODUCTS TO MEET
                 DOMESTIC AS WELL AS INTERNATIONAL MARKETS. WE ARE READY TO SERVE
-                OUR CUSTOMERS WITH WORLD-CLASS PRODUCTS"
+                OUR CUSTOMERS WITH WORLD-CLASS PRODUCTS "
               </p>
               <div class="about-sign">
                 <!-- <div class="sign">
@@ -423,12 +498,26 @@
             <div class="footer-widget">
               <h2 class="fw-title">Our Products</h2>
               <ul>
-                <li>Radiators</li>
-                <li>Mechanically Bonded Radiators</li>
                 <li>
-                  Radiator, Oil cooler and AfterCoolers Assembly
+                  <a href="./radiator.html" style="color: #718090;">
+                    Radiators</a
+                  >
                 </li>
-                <li>Turbo After Cooler</li>
+                <li>
+                  <a href="./mradiator.html" style="color: #718090;"
+                    >Mechanically Bonded Radiators</a
+                  >
+                </li>
+                <li>
+                  <a href="./acooler.html" style="color: #718090;"
+                    >Radiator, Oil cooler and AfterCoolers Assembly</a
+                  >
+                </li>
+                <li>
+                  <a href="./tacooler.html" style="color: #718090;"
+                    >Turbo After Cooler</a
+                  >
+                </li>
                 <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->
               </ul>
