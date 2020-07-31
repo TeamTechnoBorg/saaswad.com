@@ -143,7 +143,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About us</a></li>
 					<li>
-						<a href="solutions.html">Products</a>
+						<a href="solutions.php">Products</a>
 					</li>
 					<li><a href="blog.html">Facilities</a></li>
 					<li class="active"><a href="contact.php">Contact</a></li>
@@ -393,7 +393,7 @@
 					<ul class="footer-menu text-center">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About us</a></li>
-						<li><a href="solutions.html">Products</a></li>
+						<li><a href="solutions.php">Products</a></li>
 						<li><a href="blog.html">Facilities</a></li>
 						<li class="active"><a href="contact.php">Contact</a></li>
 					</ul>
