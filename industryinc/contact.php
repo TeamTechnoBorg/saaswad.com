@@ -111,7 +111,7 @@
 			<!-- Logo -->
 			<a href="index.html" class="site-logo">
 				<img src="img/logo_saswad.png" height="80" alt="" />
-				
+
 				<!-- <span style="color: black;">Saaswad</span> -->
 			</a>
 			<div class="header-right">
@@ -143,10 +143,10 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About us</a></li>
 					<li>
-						<a href="solutions.html">Products</a>
+						<a href="solutions.php">Products</a>
 					</li>
 					<li><a href="blog.html">Facilities</a></li>
-					<li class="active"><a href="contact.html">Contact</a></li>
+					<li class="active"><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -246,7 +246,7 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<!-- <?php
+					<?php
 					$Msg = "";
 					if (isset($_GET['error'])) {
 						$Msg = " Please Fill in the Blanks ";
@@ -258,7 +258,7 @@
 						echo '<div class="alert alert-success">' . $Msg . '</div>';
 					}
 
-					?> -->
+					?>
 					<form action="process.php" method="post" class="contact-form">
 						<div class="row">
 							<div class="col-lg-6">
@@ -393,9 +393,9 @@
 					<ul class="footer-menu text-center">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About us</a></li>
-						<li><a href="solutions.html">Products</a></li>
+						<li><a href="solutions.php">Products</a></li>
 						<li><a href="blog.html">Facilities</a></li>
-						<li class="active"><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 			</div>

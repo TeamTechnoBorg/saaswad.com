@@ -86,6 +86,11 @@
           background-image: url("./img/home_cover2.jpg");
         } */
       }
+      @media only screen and (min-width: 1000px) {
+        .mtop {
+          margin-top: 20%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -145,10 +150,10 @@
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li>
-              <a href="solutions.html">Products</a>
+              <a href="solutions.php">Products</a>
             </li>
             <li><a href="blog.html">Facilities</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -176,7 +181,7 @@
               >
               <a
                 style="opacity: inherit;"
-                href="solutions.html"
+                href="solutions.php"
                 class="site-btn sb-dark"
                 >Products</a
               >
@@ -337,7 +342,7 @@
             </h2>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-12">
             <div class="feature-box">
               <img src="img/company2.jpg" alt="" />
               <div class="fb-text">
@@ -365,7 +370,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-12">
             <div class="feature-box">
               <img src="img/company1.jpg" alt="" />
               <div class="fb-text">
@@ -504,7 +509,7 @@
             <h2>We produce or supply Goods, Services, or Sources</h2>
           </div>
           <div class="col-lg-3 text-lg-right">
-            <a href="contact.html#contact-form" class="site-btn sb-dark"
+            <a href="contact.php#contact-form" class="site-btn sb-dark"
               >contact us</a
             >
           </div>
@@ -518,9 +523,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="video-text">
-              <h2>We produce or supply Goods, & Services</h2>
-              <div class="container">
+            <div class="video-text mtop">
+              <h2>
+                We are an ISO 9001:2015 certified company. We provide a customer
+                delight with post delivery support and maintaice.
+              </h2>
+              <!-- <div class="container">
                 <div class="row">
                   <div class="col-lg-6 text-center">
                     <i style="font-size: 3em;" class="far fa-check-circle"></i>
@@ -539,14 +547,16 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <a href="contact.html#contact-form" class="site-btn"
-                >contact us</a
-              >
+              </div> -->
+              <a href="contact.php#contact-form" class="site-btn">contact us</a>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="video-box set-bg" data-setbg="img/video_thumbnail.png">
+            <div
+              class="video-box set-bg"
+              style="height: 400px;"
+              data-setbg="img/video_thumbnail.png"
+            >
               <a href="./videos/saaswad final.mp4" class="video-popup">
                 <i class="fa fa-play"></i>
               </a>
@@ -565,9 +575,9 @@
             <ul class="footer-menu text-center">
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="about.html">About us</a></li>
-              <li><a href="solutions.html">Products</a></li>
+              <li><a href="solutions.php">Products</a></li>
               <li><a href="blog.html">Facilities</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
         </div>
