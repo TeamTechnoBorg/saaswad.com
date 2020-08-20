@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Favicon -->
-	<link href="img/logo_saswad.png" rel="shortcut icon" />
+	<link href="img/logo_saswadn.png" rel="shortcut icon" />
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
@@ -111,7 +111,7 @@
 			<!-- Logo -->
 			<a href="index.html" class="site-logo">
 				<img src="img/logo_saswad.png" height="80" alt="" />
-				<span style="color: black; font-size: large; font-weight: bolder;">Saaswad Heat Transfers Pvt Ltd</span>
+
 				<!-- <span style="color: black;">Saaswad</span> -->
 			</a>
 			<div class="header-right">
@@ -143,10 +143,10 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About us</a></li>
 					<li>
-						<a href="solutions.html">Products</a>
+						<a href="solutions.php">Products</a>
 					</li>
 					<li><a href="blog.html">Facilities</a></li>
-					<li class="active"><a href="contact.html">Contact</a></li>
+					<li class="active"><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -246,7 +246,7 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<!-- <?php
+					<?php
 					$Msg = "";
 					if (isset($_GET['error'])) {
 						$Msg = " Please Fill in the Blanks ";
@@ -258,7 +258,7 @@
 						echo '<div class="alert alert-success">' . $Msg . '</div>';
 					}
 
-					?> -->
+					?>
 					<form action="process.php" method="post" class="contact-form">
 						<div class="row">
 							<div class="col-lg-6">
@@ -393,9 +393,9 @@
 					<ul class="footer-menu text-center">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About us</a></li>
-						<li><a href="solutions.html">Products</a></li>
+						<li><a href="solutions.php">Products</a></li>
 						<li><a href="blog.html">Facilities</a></li>
-						<li class="active"><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 			</div>

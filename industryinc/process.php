@@ -9,14 +9,14 @@ if (isset($_POST['btn-send'])) {
     $Msg = $_POST['msg'];
 
     if (empty($UserName) || empty($Email) || empty($Subject) || empty($Msg) || empty($No) || empty($Address)) {
-        header('location:contact.html?error');
+        header('location:contact.php?error');
     } else {
         $to = "info@saaswad.com";
         $Msg = $Msg . " " . strval($No) . " " . $Address;
         if (mail($to, $Subject, $Msg, $Email)) {
-            header('location:contact.html?success');
+            header('location:contact.php?success');
         }
     }
 } else {
-    header("location:contact.html");
+    header("location:contact.php");
 }

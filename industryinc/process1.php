@@ -6,14 +6,14 @@ if (isset($_POST['btn-send'])) {
 
 
     if (empty($UserName) || empty($Email)) {
-        header('location:solutions.html?error');
+        header('location:solutions.php?error');
     } else {
         $to = "info@saaswad.com";
         $Msg = $UserName . " " . $Email;
         if (mail($to, "I want to have business with you", $Msg, $Email)) {
-            header('location:solutions.html?success');
+            header('location:solutions.php?success');
         }
     }
 } else {
-    header("location:solutions.html");
+    header("location:solutions.php");
 }

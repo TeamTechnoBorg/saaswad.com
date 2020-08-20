@@ -12,7 +12,7 @@
     ></script>
 
     <!-- Favicon -->
-    <link href="img/logo_saswad.png" rel="shortcut icon" />
+    <link href="img/logo_saswadn.png" rel="shortcut icon" />
 
     <!-- Google font -->
     <link
@@ -80,11 +80,16 @@
           background-image: url("./img/home_cover2.jpg");
         } */
         50% {
-          background-image: url("./img/home_cover2.jpg");
+          background-image: url("./img/home_cover1.jpg");
         }
         /* 75% {
           background-image: url("./img/home_cover2.jpg");
         } */
+      }
+      @media only screen and (min-width: 1000px) {
+        .mtop {
+          margin-top: 20%;
+        }
       }
     </style>
   </head>
@@ -113,9 +118,7 @@
         <!-- Logo -->
         <a href="index.html" class="site-logo">
           <img src="img/logo_saswad.png" height="80" alt="" />
-          <span style="color: black; font-size: large; font-weight: bolder;"
-            >Saaswad Heat Transfers Pvt Ltd</span
-          >
+
           <!-- <span style="color: black;">Saaswad</span> -->
         </a>
         <div class="header-right">
@@ -147,10 +150,10 @@
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li>
-              <a href="solutions.html">Products</a>
+              <a href="solutions.php">Products</a>
             </li>
             <li><a href="blog.html">Facilities</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -178,7 +181,7 @@
               >
               <a
                 style="opacity: inherit;"
-                href="solutions.html"
+                href="solutions.php"
                 class="site-btn sb-dark"
                 >Products</a
               >
@@ -232,9 +235,9 @@
             <div class="col-lg-6 col-md-6 text-center">
               <div class="service-item">
                 <div class="si-head">
-                  <!-- <div class="si-icon">
-                    <img src="img/icons/cogwheel.png" alt="" />
-                  </div> -->
+                  <!-- <div class="si-icon"> -->
+                  <img src="img/newimage5.JPG" alt="" height="100px" />
+                  <!-- </div> -->
                   <h5>Industrial Radiators</h5>
                 </div>
                 <p>
@@ -245,9 +248,9 @@
             <div class="col-lg-6 col-md-6 text-center">
               <div class="service-item">
                 <div class="si-head">
-                  <!-- <div class="si-icon">
-                    <img src="img/icons/helmet.png" alt="" />
-                  </div> -->
+                  <!-- <div class="si-icon"> -->
+                  <img src="img/newimage8.png" alt="" height="100px" />
+                  <!-- </div> -->
                   <h5>Oil Coolers</h5>
                 </div>
                 <p>
@@ -258,9 +261,9 @@
             <div class="col-lg-6 col-md-6 text-center">
               <div class="service-item">
                 <div class="si-head">
-                  <!-- <div class="si-icon">
-                    <img src="img/icons/wind-engine.png" alt="" />
-                  </div> -->
+                  <!-- <div class="si-icon"> -->
+                  <img src="img/KPC 709.png" alt="" height="100px" />
+                  <!-- </div> -->
                   <h5>Heat Exchangers</h5>
                 </div>
                 <p>
@@ -271,9 +274,9 @@
             <div class="col-lg-6 col-md-6 text-center">
               <div class="service-item">
                 <div class="si-head">
-                  <!-- <div class="si-icon">
-                    <img src="img/icons/pollution.png" alt="" />
-                  </div> -->
+                  <!-- <div class="si-icon"> -->
+                  <img src="img/newimage1.JPG" alt="" height="100px" />
+                  <!-- </div> -->
                   <h5>Charged Air Coolers</h5>
                 </div>
                 <p>
@@ -339,7 +342,7 @@
             </h2>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-12">
             <div class="feature-box">
               <img src="img/company2.jpg" alt="" />
               <div class="fb-text">
@@ -367,7 +370,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-12">
             <div class="feature-box">
               <img src="img/company1.jpg" alt="" />
               <div class="fb-text">
@@ -506,7 +509,7 @@
             <h2>We produce or supply Goods, Services, or Sources</h2>
           </div>
           <div class="col-lg-3 text-lg-right">
-            <a href="contact.html#contact-form" class="site-btn sb-dark"
+            <a href="contact.php#contact-form" class="site-btn sb-dark"
               >contact us</a
             >
           </div>
@@ -520,9 +523,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="video-text">
-              <h2>We produce or supply Goods, & Services</h2>
-              <div class="container">
+            <div class="video-text mtop">
+              <h2>
+                We are an ISO 9001:2015 certified company. We provide a customer
+                delight with post delivery support and maintaice.
+              </h2>
+              <!-- <div class="container">
                 <div class="row">
                   <div class="col-lg-6 text-center">
                     <i style="font-size: 3em;" class="far fa-check-circle"></i>
@@ -541,14 +547,16 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <a href="contact.html#contact-form" class="site-btn"
-                >contact us</a
-              >
+              </div> -->
+              <a href="contact.php#contact-form" class="site-btn">contact us</a>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="video-box set-bg" data-setbg="img/video_thumbnail.png">
+            <div
+              class="video-box set-bg"
+              style="height: 400px;"
+              data-setbg="img/video_thumbnail.png"
+            >
               <a href="./videos/saaswad final.mp4" class="video-popup">
                 <i class="fa fa-play"></i>
               </a>
@@ -567,9 +575,9 @@
             <ul class="footer-menu text-center">
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="about.html">About us</a></li>
-              <li><a href="solutions.html">Products</a></li>
+              <li><a href="solutions.php">Products</a></li>
               <li><a href="blog.html">Facilities</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
         </div>
