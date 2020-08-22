@@ -89,14 +89,16 @@
   <a href="#" id="scroll" style="display: none;"><span></span></a>
   <?php
   $Msg = "";
+  $flag = 0;
   if (isset($_GET['error'])) {
-    $Msg = " Please Fill in the Blanks ";
-    echo '<div class="alert alert-danger">' . $Msg . '</div>';
+    $Msg = "  ";
+    echo "<script>alert(' Please Fill in the Blanks ')</script>";
   }
 
   if (isset($_GET['success'])) {
+    $flag = 1;
     $Msg = " Your Message Has Been Sent ";
-    echo '<div class="alert alert-success">' . $Msg . '</div>';
+    echo "<script>alert(' Your Message Has Been Sent ')</script>";
   }
 
   ?>
@@ -580,23 +582,29 @@
   <script src="js/circle-progress.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    window.addEventListener("scroll", myFunction);
+  <?php
+  if ($flag == 0) {
+    echo '<script>
+window.addEventListener("scroll", myFunction);
 
-    function removeHandler() {
-      window.removeEventListener("scroll", myFunction);
-    }
+function removeHandler() {
+  window.removeEventListener("scroll", myFunction);
+}
 
-    function myFunction() {
-      const scrollable =
-        document.documentElement.scrollHeight - window.innerHeight;
-      const scrolled = window.scrollY;
-      if (scrolled / scrollable >= 0.3) {
-        document.getElementById("model-trigger").click();
-        removeHandler();
-      }
-    }
-  </script>
+function myFunction() {
+  const scrollable =
+    document.documentElement.scrollHeight - window.innerHeight;
+  const scrolled = window.scrollY;
+  if (scrolled / scrollable >= 0.3) {
+    document.getElementById("model-trigger").click();
+    removeHandler();
+  }
+}
+</script>';
+  }
+  ?>
+
+
   <script>
     $(document).ready(function() {
       $(window).scroll(function() {
