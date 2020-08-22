@@ -28,6 +28,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <style>
+    .hover1:hover {
+      color: white;
+    }
+
+    .hover1 {
+      color: #718090;
+    }
+
     #scroll {
       z-index: 999;
       position: fixed;
@@ -81,14 +89,16 @@
   <a href="#" id="scroll" style="display: none;"><span></span></a>
   <?php
   $Msg = "";
+  $flag = 0;
   if (isset($_GET['error'])) {
-    $Msg = " Please Fill in the Blanks ";
-    echo '<div class="alert alert-danger">' . $Msg . '</div>';
+    $Msg = "  ";
+    echo "<script>alert(' Please Fill in the Blanks ')</script>";
   }
 
   if (isset($_GET['success'])) {
+    $flag = 1;
     $Msg = " Your Message Has Been Sent ";
-    echo '<div class="alert alert-success">' . $Msg . '</div>';
+    echo "<script>alert(' Your Message Has Been Sent ')</script>";
   }
 
   ?>
@@ -452,7 +462,7 @@
               expertise and after-sales service to our customers.
             </p>
             <div class="footer-social">
-              <a href=""><i class="fa fa-envelope"></i></a>
+              <a href="mailto: info@saaswad.com"><i class="fa fa-envelope"></i></a>
               <a href=""><i class="fa fa-google"></i></a>
               <!-- <a href=""><i class="fa fa-dribbble"></i></a>
                 <a href=""><i class="fa fa-behance"></i></a> -->
@@ -464,17 +474,17 @@
             <h2 class="fw-title">Our Products</h2>
             <ul>
               <li>
-                <a href="./radiator.html" style="color: #718090;">
+                <a class="hover1" href="./radiator.html">
                   Radiators</a>
               </li>
               <li>
-                <a href="./mradiator.html" style="color: #718090;">Mechanically Bonded Radiators</a>
+                <a class="hover1" href="./mradiator.html">Mechanically Bonded Radiators</a>
               </li>
               <li>
-                <a href="./acooler.html" style="color: #718090;">Radiator, Oil cooler and AfterCoolers Assembly</a>
+                <a class="hover1" href="./acooler.html">Radiator, Oil cooler and AfterCoolers Assembly</a>
               </li>
               <li>
-                <a href="./tacooler.html" style="color: #718090;">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.html">Turbo After Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->
@@ -543,7 +553,7 @@
           <div class="col-lg-7 order-1 order-lg-2 p-0">
             <ul class="footer-menu">
               <li>
-                <a href="http://technoborg.in/">Made By - Team Technoborg</a>
+                <a class="hover1" href="http://technoborg.in/">Team Technoborg</a>
               </li>
             </ul>
           </div>
@@ -572,23 +582,29 @@
   <script src="js/circle-progress.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    window.addEventListener("scroll", myFunction);
+  <?php
+  if ($flag == 0) {
+    echo '<script>
+window.addEventListener("scroll", myFunction);
 
-    function removeHandler() {
-      window.removeEventListener("scroll", myFunction);
-    }
+function removeHandler() {
+  window.removeEventListener("scroll", myFunction);
+}
 
-    function myFunction() {
-      const scrollable =
-        document.documentElement.scrollHeight - window.innerHeight;
-      const scrolled = window.scrollY;
-      if (scrolled / scrollable >= 0.3) {
-        document.getElementById("model-trigger").click();
-        removeHandler();
-      }
-    }
-  </script>
+function myFunction() {
+  const scrollable =
+    document.documentElement.scrollHeight - window.innerHeight;
+  const scrolled = window.scrollY;
+  if (scrolled / scrollable >= 0.3) {
+    document.getElementById("model-trigger").click();
+    removeHandler();
+  }
+}
+</script>';
+  }
+  ?>
+
+
   <script>
     $(document).ready(function() {
       $(window).scroll(function() {
@@ -608,6 +624,18 @@
       });
     });
   </script>
+  <script type="text/JavaScript">
+    //Script courtesy of BoogieJack.com
+var message="NoRightClicking";
+function defeatIE() {if (document.all) {(message);return false;}}
+function defeatNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+document.oncontextmenu=new Function("return false")
+</script>
 </body>
 
 </html>
