@@ -81,6 +81,14 @@
 
 
 		}
+
+		.hover1:hover {
+			color: white;
+		}
+
+		.hover1 {
+			color: #718090;
+		}
 	</style>
 
 </head>
@@ -418,7 +426,7 @@
 							expertise and after-sales service to our customers.
 						</p>
 						<div class="footer-social">
-							<a href=""><i class="fa fa-envelope"></i></a>
+							<a href="mailto: info@saaswad.com"><i class="fa fa-envelope"></i></a>
 							<a href=""><i class="fa fa-google"></i></a>
 							<!-- <a href=""><i class="fa fa-dribbble"></i></a>
 				  <a href=""><i class="fa fa-behance"></i></a> -->
@@ -430,17 +438,17 @@
 						<h2 class="fw-title">Our Products</h2>
 						<ul>
 							<li>
-								<a href="./radiator.html" style="color: #718090;">
+								<a class="hover1" href="./radiator.html">
 									Radiators</a>
 							</li>
 							<li>
-								<a href="./mradiator.html" style="color: #718090;">Mechanically Bonded Radiators</a>
+								<a class="hover1" href="./mradiator.html">Mechanically Bonded Radiators</a>
 							</li>
 							<li>
-								<a href="./acooler.html" style="color: #718090;">Radiator, Oil cooler and AfterCoolers Assembly</a>
+								<a class="hover1" href="./acooler.html">Radiator, Oil cooler and AfterCoolers Assembly</a>
 							</li>
 							<li>
-								<a href="./tacooler.html" style="color: #718090;">Turbo After Cooler</a>
+								<a class="hover1" href="./tacooler.html">Turbo After Cooler</a>
 							</li>
 							<!-- <li><a href="">Oil Extractions</a></li>
 					<li><a href="">About our Work</a></li> -->
@@ -509,7 +517,7 @@
 					<div class="col-lg-7 order-1 order-lg-2 p-0">
 						<ul class="footer-menu">
 							<li>
-								<a href="http://technoborg.in/">Made By - Team Technoborg</a>
+								<a class="hover1" href="http://technoborg.in/">Team Technoborg</a>
 							</li>
 						</ul>
 					</div>
