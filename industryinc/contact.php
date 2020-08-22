@@ -273,7 +273,7 @@
 								<input type="text" name="UName" placeholder="Your Name">
 							</div>
 							<div class="col-lg-6">
-								<input type="text" name="Email" placeholder="Your Email">
+								<input type="email" name="Email" placeholder="Your Email">
 							</div>
 							<div class="col-lg-6">
 								<input type="number" name="no" placeholder="Your Number">
