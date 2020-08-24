@@ -87,6 +87,21 @@
       <div class="loader"></div>
     </div>
     <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <?php
+    $Msg = "";
+    $flag = 0;
+    if (isset($_GET['error'])) {
+      $Msg = "  ";
+      echo "<script>alert(' Please Fill in the Blanks ')</script>";
+    }
+  
+    if (isset($_GET['success'])) {
+      $flag = 1;
+      $Msg = " Your Message Has Been Sent ";
+      echo "<script>alert(' Your Message Has Been Sent ')</script>";
+    }
+  
+    ?>
 
     <!-- Header section  -->
     <header class="header-section clearfix">
@@ -196,10 +211,10 @@
                 With required emission specifications,we at SAASWAD produce
                 radiators that are most efficient for a compact frontal area. We
                 have proven results for non automotive applications.<br />
-                > Material: Aluminum & Copper Brass<br />
-                > Design Types Fin & Tube/Bar & Plate Equipment: Industrial
-                Power Generation Engines :125 KVA to 1250 KVA Locomotive Engine
-                : 1350 HP TO 4500 HP Radiators
+                Material: Aluminum & Copper Brass<br />
+                Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power
+                Generation Engines :125 KVA to 1250 KVA Locomotive Engine : 1350
+                HP TO 4500 HP Radiators
               </p>
               <div class="about-sign">
                 <!-- <div class="sign">
@@ -209,12 +224,104 @@
                   <h5>Mr. Rai Ashwani Kumar</h5>
                   <span>Managing Director</span>
                 </div> -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenter"
+                  style="background-color: red; border-color: red;"
+                >
+                  Get Quote
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Interested in Radiators?
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="process2.php" method="post">
+              <div class="form-group">
+                <!-- <label for="exampleInputPassword1">Password</label> -->
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">Email address</label> -->
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <!-- <small id="emailHelp" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  > -->
+              </div>
+
+              <!-- <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div> -->
+              <button
+                name="btn-send"
+                style="background-color: red; border-color: red;"
+                class="btn btn-primary"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+          <!-- <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+        </div>
+      </div>
+    </div>
 
     <!-- Footer section -->
     <div class="footer-buttom">
@@ -257,7 +364,7 @@
                 <a href="mailto: info@saaswad.com"
                   ><i class="fa fa-envelope"></i
                 ></a>
-                <a href=""><i class="fa fa-google"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
                 <!-- <a href=""><i class="fa fa-dribbble"></i></a>
                 <a href=""><i class="fa fa-behance"></i></a> -->
               </div>
@@ -294,12 +401,19 @@
             <div class="footer-widget">
               <h2 class="fw-title">Our Facilities</h2>
               <ul>
-                <li>Punching Machine</li>
-                <li>Cnc Tube Bender 65CNC3XES( 3M), Hybrid</li>
-                <li>Bending Machine</li>
-                <li>CNC Vertical Machine Centre ( BMV 80 TC 20)</li>
-                <li>Shearing Machine</li>
-                <li>Oven</li>
+                <li>
+                  <a class="hover1" href="./unit3.html">Varanasi Unit</a>
+                </li>
+                <li>
+                  <a class="hover1" href="./unit4.html">Pune Unit</a>
+                </li>
+                <li>
+                  <a class="hover1" href="./coorporate_office.html"
+                    >Coorporate Ofiice</a
+                  >
+                </li>
+                <!-- <li><a href="">Oil Extractions</a></li>
+                <li><a href="">About our Work</a></li> -->
               </ul>
             </div>
           </div>
@@ -353,7 +467,7 @@
               <ul class="footer-menu">
                 <li>
                   <a class="hover1" href="http://technoborg.in/"
-                    >Team Technoborg</a
+                    >Team Technoborg<sup>&copy;</sup></a
                   >
                 </li>
               </ul>

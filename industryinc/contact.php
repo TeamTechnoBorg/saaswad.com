@@ -259,11 +259,13 @@
 					if (isset($_GET['error'])) {
 						$Msg = " Please Fill in the Blanks ";
 						echo '<div class="alert alert-danger">' . $Msg . '</div>';
+						echo "<script>alert(' Please Fill in the Blanks ')</script>";
 					}
 
 					if (isset($_GET['success'])) {
 						$Msg = " Your Message Has Been Sent ";
 						echo '<div class="alert alert-success">' . $Msg . '</div>';
+						echo "<script>alert(' Your Message Has Been Sent ')</script>";
 					}
 
 					?>
@@ -427,7 +429,7 @@
 						</p>
 						<div class="footer-social">
 							<a href="mailto: info@saaswad.com"><i class="fa fa-envelope"></i></a>
-							<a href=""><i class="fa fa-google"></i></a>
+							<a href=""><i class="fa fa-linkedin"></i></a>
 							<!-- <a href=""><i class="fa fa-dribbble"></i></a>
 				  <a href=""><i class="fa fa-behance"></i></a> -->
 						</div>
@@ -459,12 +461,17 @@
 					<div class="footer-widget">
 						<h2 class="fw-title">Our Facilities</h2>
 						<ul>
-							<li>Punching Machine</li>
-							<li>Cnc Tube Bender 65CNC3XES( 3M), Hybrid</li>
-							<li>Bending Machine</li>
-							<li>CNC Vertical Machine Centre ( BMV 80 TC 20)</li>
-							<li>Shearing Machine</li>
-							<li>Oven</li>
+							<li>
+								<a class="hover1" href="./unit3.html">Varanasi Unit</a>
+							</li>
+							<li>
+								<a class="hover1" href="./unit4.html">Pune Unit</a>
+							</li>
+							<li>
+								<a class="hover1" href="./coorporate_office.html">Coorporate Ofiice</a>
+							</li>
+							<!-- <li><a href="">Oil Extractions</a></li>
+                <li><a href="">About our Work</a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -517,7 +524,7 @@
 					<div class="col-lg-7 order-1 order-lg-2 p-0">
 						<ul class="footer-menu">
 							<li>
-								<a class="hover1" href="http://technoborg.in/">Team Technoborg</a>
+								<a class="hover1" href="http://technoborg.in/">Team Technoborg<sup>&copy;</sup></a>
 							</li>
 						</ul>
 					</div>
