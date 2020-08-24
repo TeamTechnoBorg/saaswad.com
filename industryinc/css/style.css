@@ -737,7 +737,7 @@ ol {
 
 .service-item h5 {
   overflow: hidden;
-  padding-top: 12px;
+  /* padding-top: 12px; */
 }
 
 .service-item p {
