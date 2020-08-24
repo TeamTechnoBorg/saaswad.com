@@ -190,7 +190,7 @@
 			<div class="row">
 				<div class="col-lg-7">
 					<h2>Contact</h2>
-					
+
 					<a href="#contact-form" class="site-btn">Reach Us</a>
 				</div>
 			</div>
@@ -233,7 +233,7 @@
 							</div>
 							<div class="hib-text">
 								<p>
-									<h4>UNIT 3</h4>
+									<h4>Varanasi Unit</h4>
 									Chak no. 249(I),Plot no-1032/1/2,Tehsil-Raja Talab,Dist-Varanasi-221307
 								</p>
 							</div>
@@ -244,7 +244,7 @@
 							</div>
 							<div class="hib-text">
 								<p>
-									<h4>UNIT 4</h4>
+									<h4>Pune Unit</h4>
 									GAT NO.270,BESIDE REBARI COMPLEX, OPP. ALANDI PHATA,NANEKAR WADI, CHAKAN MAHARASHTRA-410501
 								</p>
 							</div>
@@ -316,7 +316,7 @@
 	<br>
 	<!-- Map section  -->
 	<h3 style="margin-bottom: 20px;">
-		<center>UNIT 3 AND REGIONAL OFFICE</center>
+		<center>VARANASI UNIT AND REGIONAL OFFICE</center>
 	</h3>
 	<div class="map-section">
 		<div class="container">
@@ -360,7 +360,7 @@
 					<!-- <img src="img/team/1.jpg" alt="" /> -->
 					<div class="member-info">
 						<h3 style="font-size: 2rem; margin-bottom: 20px;">
-							Unit 4
+							PUNE UNIT
 						</h3>
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.4387776008934!2d73.8533273145888!3d18.733928067504312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDQ0JzAyLjEiTiA3M8KwNTEnMTkuOSJF!5e0!3m2!1sen!2sin!4v1596130728365!5m2!1sen!2sin" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						<!-- <a href="#" class="site-btn">See C.V.</a> -->
@@ -567,10 +567,10 @@
 		//Script courtesy of BoogieJack.com
 var message="NoRightClicking";
 function defeatIE() {if (document.all) {(message);return false;}}
-function defeatNS(e) {if 
+function defeatNS(e) {if
 (document.layers||(document.getElementById&&!document.all)) {
 if (e.which==2||e.which==3) {(message);return false;}}}
-if (document.layers) 
+if (document.layers)
 {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
 else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
 document.oncontextmenu=new Function("return false")

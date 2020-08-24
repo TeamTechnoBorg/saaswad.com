@@ -1,6 +1,6 @@
 /* =================================
 ------------------------------------
-  Template Name: Industry.INC 
+  Template Name: Industry.INC
 	Description: Industry.INC HTML Template
 	Author: colorlib
 	Author URI: https://www.colorlib.com/
@@ -1275,7 +1275,7 @@ ol {
   height: 100%;
   left: 0;
   top: 0;
-  /* border: 2px solid black; */
+   border: 2px solid black;
   opacity: 1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1333,7 +1333,10 @@ ol {
 }
 
 .reserch-section {
-  background: #0e2b43;
+  background: black;
+}
+.reserch-section1 {
+  background: 	#F5FFFA;
 }
 
 .reserch-tab-menu {
