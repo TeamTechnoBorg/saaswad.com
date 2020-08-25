@@ -89,7 +89,6 @@
   </div>
   <a href="#" id="scroll" style="display: none;"><span></span></a>
 
-
   <!-- Header section  -->
   <header class="header-section clearfix">
     <!-- <div class="header-top">
@@ -163,7 +162,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
-          <h2>Radiator</h2>
+          <h2>Turbo After Cooler</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -180,23 +179,27 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/11.jpg" alt="" />
+          <img src="img/14.jpg" alt="" />
         </div>
         <div class="col-lg-6">
           <div class="about-text text-center">
-            <h2 style="font-weight: bolder;">Radiator</h2>
+            <h2 style="font-weight: bolder;">Turbo After Cooler</h2>
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;
                 ">
-              With required emission specifications,we at SAASWAD produce
-              radiators that are most efficient for a compact frontal area. We
-              have proven results for non automotive applications.<br />
-              Material: Aluminum & Copper Brass<br />
-              Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power
-              Generation Engines :125 KVA to 1250 KVA Locomotive Engine : 1350
-              HP TO 4500 HP Radiators
+              SAASWAD’S range of Charge air coolers (CAC) or Intercoolers/
+              After coolers have proved very successful in cooling engine
+              intake of air for increased power, improved fuel economy and
+              emission . The CACS manufactured at SAASWAD with controlled
+              atmosphere brazing processes are available in following
+              categories :- <br />
+              Material: Aluminum <br />
+              Design Types: Fin & Tube / Bar & Plate <br />
+              Off-Road / Construction Equipment Backhoe Loaders, Dumpers,
+              Dozers and Concrete Mixtures etc. Industrial Power Generation
+              Engines: 75 KVA-1010 KVA
             </p>
             <div class="about-sign">
               <!-- <div class="sign">
@@ -221,7 +224,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">
-            Interested in Radiators?
+            Interested in Turbo After Coolers?
           </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -245,7 +248,7 @@
           }
 
           ?>
-          <form action="process2.php" method="post">
+          <form action="process5.php" method="post">
             <div class="form-group">
               <!-- <label for="exampleInputPassword1">Password</label> -->
               <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Enter Name" />

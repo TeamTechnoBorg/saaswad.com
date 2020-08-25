@@ -376,7 +376,7 @@
                 Radiators
               </h2>
               <img src="img/11.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./radiator.html">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./radiator.php">
                 Know more
               </a>
             </div>
@@ -385,7 +385,7 @@
                 Mechanically Bonded Radiators
               </h2>
               <img src="img/12.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.html">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.php">
                 Know more
               </a>
             </div>
@@ -394,7 +394,7 @@
                 Radiator, Oil cooler and AfterCoolers Assembly
               </h2>
               <img src="img/13.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./acooler.html">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./acooler.php">
                 Know more
               </a>
             </div>
@@ -403,7 +403,7 @@
                 Turbo After Cooler
               </h2>
               <img src="img/14.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./tacooler.html">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./tacooler.php">
                 Know more
               </a>
             </div>
@@ -474,17 +474,17 @@
             <h2 class="fw-title">Our Products</h2>
             <ul>
               <li>
-                <a class="hover1" href="./radiator.html">
+                <a class="hover1" href="./radiator.php">
                   Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.html">Mechanically Bonded Radiators</a>
+                <a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.html">Radiator, Oil cooler and AfterCoolers Assembly</a>
+                <a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.html">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->

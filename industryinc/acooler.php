@@ -89,7 +89,6 @@
   </div>
   <a href="#" id="scroll" style="display: none;"><span></span></a>
 
-
   <!-- Header section  -->
   <header class="header-section clearfix">
     <!-- <div class="header-top">
@@ -163,7 +162,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
-          <h2>Radiator</h2>
+          <h2>Radiator, Oil cooler and AfterCoolers Assembly</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -180,32 +179,38 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/11.jpg" alt="" />
+          <img src="img/13.jpg" alt="" />
         </div>
         <div class="col-lg-6">
           <div class="about-text text-center">
-            <h2 style="font-weight: bolder;">Radiator</h2>
+            <h2 style="font-weight: bolder;">
+              Radiator, Oil cooler and AfterCoolers Assembly
+            </h2>
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;
                 ">
-              With required emission specifications,we at SAASWAD produce
-              radiators that are most efficient for a compact frontal area. We
-              have proven results for non automotive applications.<br />
-              Material: Aluminum & Copper Brass<br />
-              Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power
-              Generation Engines :125 KVA to 1250 KVA Locomotive Engine : 1350
-              HP TO 4500 HP Radiators
+              We at SAASWAD make oil coolers of aluminium in a controlled
+              brazing atmosphere. They efficiently and economically reduce
+              high oil and fuel temperature because of the way they are made.
+              The designs we provide are compact , lightweight, high
+              performance with high cooling under demanding engine conditions
+              <br />
+              Material: Aluminum <br />
+              Design Types: Fin & Tube / Bar & Plate <br />
+              Off-Road / Construction Equipment: Backhoe Loaders, Dumpers,
+              Dozers and Concrete Mixtures etc. <br />
+              Industrial Power Generation Engines: 250 KVA - 2000 KVA
             </p>
             <div class="about-sign">
               <!-- <div class="sign">
-                  <img src="img/sign.png" alt="" />
-                </div> -->
+                    <img src="img/sign.png" alt="" />
+                  </div> -->
               <!-- <div class="sign-info">
-                  <h5>Mr. Rai Ashwani Kumar</h5>
-                  <span>Managing Director</span>
-                </div> -->
+                    <h5>Mr. Rai Ashwani Kumar</h5>
+                    <span>Managing Director</span>
+                  </div> -->
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
                 Get Quote
               </button>
@@ -221,7 +226,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">
-            Interested in Radiators?
+            Interested in After Coolers?
           </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -245,7 +250,7 @@
           }
 
           ?>
-          <form action="process2.php" method="post">
+          <form action="process4.php" method="post">
             <div class="form-group">
               <!-- <label for="exampleInputPassword1">Password</label> -->
               <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Enter Name" />
@@ -254,35 +259,35 @@
               <!-- <label for="exampleInputEmail1">Email address</label> -->
               <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
               <!-- <small id="emailHelp" class="form-text text-muted"
-                    >We'll never share your email with anyone else.</small
-                  > -->
+                      >We'll never share your email with anyone else.</small
+                    > -->
             </div>
 
             <!-- <div class="form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="exampleCheck1"
-                  />
-                  <label class="form-check-label" for="exampleCheck1"
-                    >Check me out</label
-                  >
-                </div> -->
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Check me out</label
+                    >
+                  </div> -->
             <button name="btn-send" style="background-color: red; border-color: red;" class="btn btn-primary">
               Submit
             </button>
           </form>
         </div>
         <!-- <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div> -->
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div> -->
       </div>
     </div>
   </div>
