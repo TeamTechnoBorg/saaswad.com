@@ -26,6 +26,20 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/slicknav.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-96171225-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-96171225-3");
+    </script>
 
     <!-- Main Stylesheets -->
     <link rel="stylesheet" href="css/style.css" />
@@ -104,7 +118,7 @@
     <div id="preloder">
       <div class="loader"></div>
     </div>
-    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <a href="#" id="scroll" style="display: none"><span></span></a>
 
     <!-- Header section  -->
     <header class="header-section clearfix">
@@ -143,9 +157,7 @@
             </div>
             <div class="hib-text">
               <h6>Corporate Office-B-38/47 PR,Tulsipur</h6>
-              <p>
-                Mahmoorganj,Varanasi Uttar Pradesh,India-221010
-              </p>
+              <p>Mahmoorganj,Varanasi Uttar Pradesh,India-221010</p>
             </div>
           </div>
           <!-- <button class="search-switch"><i class="fa fa-search"></i></button> -->
@@ -174,19 +186,19 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-8">
-              <h2 style="opacity: inherit;">
-                <span style="background-color: rgba(0, 0, 0, 0.3);"
+              <h2 style="opacity: inherit">
+                <span style="background-color: rgba(0, 0, 0, 0.3)"
                   >Saaswad Heat Transfer And Engineering</span
                 >
               </h2>
               <a
-                style="opacity: inherit;"
+                style="opacity: inherit"
                 href="#products"
                 class="site-btn sb-white mr-4 mb-3"
                 >Read More</a
               >
               <a
-                style="opacity: inherit;"
+                style="opacity: inherit"
                 href="solutions.php"
                 class="site-btn sb-dark"
                 >Products</a
@@ -333,8 +345,8 @@
     >
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center" style="margin-bottom: 80px;">
-            <h2 style="color: white;">
+          <div class="col-lg-12 text-center" style="margin-bottom: 80px">
+            <h2 style="color: white">
               Some of the Prestigious Industries We Serve
             </h2>
           </div>
@@ -375,7 +387,7 @@
           <div class="col-lg-4 col-md-12">
             <div class="feature-box">
               <img src="img/company1.jpg" alt="" />
-              <div class="fb-text" style="padding-bottom: 16px;">
+              <div class="fb-text" style="padding-bottom: 16px">
                 <h5>Greaves Cotton Ltd.</h5>
                 <p>
                   Greaves Cotton Limited, a diversified engineering company that
@@ -559,7 +571,7 @@
           <div class="col-lg-6">
             <div
               class="video-box set-bg"
-              style="height: 400px;"
+              style="height: 400px"
               data-setbg="img/video_thumbnail.png"
             >
               <a href="./videos/saaswad final.mp4" class="video-popup">
@@ -593,10 +605,10 @@
         <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="footer-widget">
-              <div style="margin-bottom: 25px;">
+              <div style="margin-bottom: 25px">
                 <img
                   src="img/logo_saswadw.png"
-                  style="margin-right: 5px;"
+                  style="margin-right: 5px"
                   height="30"
                   alt=""
                 />
@@ -758,6 +770,18 @@
           return false;
         });
       });
+    </script>
+    <script type="text/JavaScript">
+      //Script courtesy of BoogieJack.com
+      var message="NoRightClicking";
+      function defeatIE() {if (document.all) {(message);return false;}}
+      function defeatNS(e) {if
+      (document.layers||(document.getElementById&&!document.all)) {
+      if (e.which==2||e.which==3) {(message);return false;}}}
+      if (document.layers)
+      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+      else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+      document.oncontextmenu=new Function("return false")
     </script>
   </body>
 </html>
