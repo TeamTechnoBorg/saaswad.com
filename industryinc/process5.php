@@ -10,7 +10,7 @@ if (isset($_POST['btn-send'])) {
     } else {
         $to = "info@saaswad.com";
         $Msg = $UserName . " " . $Email;
-        $from = "info@saaswad.com";
+        $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
         if (mail($to, "I am interested in Turbo After Cooler", $Msg, $headers)) {
             header('location:tacooler.php?success');
