@@ -164,7 +164,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About us</a></li>
 					<li>
-						<a href="solutions.php">Products</a>
+						<a href="products.php">Products</a>
 					</li>
 					<li><a href="blog.html">Facilities</a></li>
 					<li class="active"><a href="contact.php">Contact</a></li>
@@ -416,7 +416,7 @@
 					<ul class="footer-menu text-center">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About us</a></li>
-						<li><a href="solutions.php">Products</a></li>
+						<li><a href="products.php">Products</a></li>
 						<li><a href="blog.html">Facilities</a></li>
 						<li class="active"><a href="contact.php">Contact</a></li>
 					</ul>
@@ -437,7 +437,7 @@
 							We introduce ourselves as one of the Leading Manufacturers of
 							Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
 							Air Coolers in India. We are known for manufacturing quality
-							products and providing complete solutions through technical
+							products and providing complete products through technical
 							expertise and after-sales service to our customers.
 						</p>
 						<div class="footer-social">
@@ -457,10 +457,10 @@
 									Radiators</a>
 							</li>
 							<li>
-								<a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
+								<a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
 							</li>
 							<li>
-								<a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
+								<a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
 							</li>
 							<li>
 								<a class="hover1" href="./tacooler.php">Turbo After Cooler</a>

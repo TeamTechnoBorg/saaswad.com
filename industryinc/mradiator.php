@@ -152,7 +152,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li>
-            <a href="solutions.php">Products</a>
+            <a href="products.php">Products</a>
           </li>
           <li><a href="blog.html">Facilities</a></li>
           <li><a href="contact.php">Contact</a></li>
@@ -175,7 +175,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
-          <h2>Mechanically Bonded Radiators</h2>
+          <h2>Custom designed heat exchangers</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -192,35 +192,29 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/12.jpg" alt="" />
+          <img src="img/11.jpg" alt="" />
         </div>
         <div class="col-lg-6">
-          <div class="about-text text-center">
-            <h2 style="font-weight: bolder;">
-              Mechanically Bonded Radiators
-            </h2>
+          <div class="about-text">
+            <center>
+              <h2 style="font-weight: bolder;">Custom designed heat exchangers</h2>
+            </center>
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;
                 ">
-              We at SAASWAD have proven capabilities and expertise to provide
-              customized engine cooling systems that consist of multiple heat
-              exchangers and auxiliary components such as tan shrouds,
-              re-circulation shields, and DE Beration tanks. The designs we
-              provide have multiple mounting options to meet diverse engine
-              types and performance parameters and can be directly installed
-              on the engine assembly lines. The custom manufactured engine
-              cooling systems include all components, as listed below, needed
-              to install and connect the heat exchanger to respective engines
-              Drive kit with premium belts, pulleys, and stub shaft<br />
-              Pipe kit with custom-formed pipes to interface with engine
-              specifications <br />
-              Radiator base designed to interface with specific engine rail
-              <br />
-              Optional galvanized steel and heat exchanger coatings for
-              enhanced corrosion protection
+              We at SAASWAD have proven capabilities and expertise to provide customized engine cooling systems that consist of multiple heat exchangers and auxiliary components such as tan shrouds, re-circulation shields, and DE Beration tanks. The designs we provide have multiple mounting options to meet diverse engine types and performance parameters and can be directly installed on the engine assembly lines. <br>
+              <ul style="list-style-type: disc; font-size: 1.25rem;
+                  font-family: Cambria, Cochin, Georgia, Times,
+                    'Times New Roman', serif;color:#718090">
+                <li>The custom manufactured engine cooling systems include all components, as listed below, needed to install and connect the heat exchanger to respective engines</li>
+                <li>Drive kit with premium belts, pulleys, and stub shaft</li>
+                <li>Pipe kit with custom-formed pipes to interface with engine specifications > Radiator base designed to interface with specific engine rail</li>
+                <li>Optional galvanized steel and heat exchanger coatings for enhanced corrosion protection</li>
+              </ul>
             </p>
+
             <div class="about-sign">
               <!-- <div class="sign">
                   <img src="img/sign.png" alt="" />
@@ -229,9 +223,9 @@
                   <h5>Mr. Rai Ashwani Kumar</h5>
                   <span>Managing Director</span>
                 </div> -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
-                Get Quote
-              </button>
+              <center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
+                  Get Quote
+                </button></center>
             </div>
           </div>
         </div>
@@ -244,7 +238,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">
-            Interested in Mechanically Bonded Radiators?
+            Interested in Custom designed heat exchangers?
           </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -318,7 +312,7 @@
           <ul class="footer-menu text-center">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
-            <li><a href="solutions.php">Products</a></li>
+            <li><a href="products.php">Products</a></li>
             <li><a href="blog.html">Facilities</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
@@ -339,7 +333,7 @@
               We introduce ourselves as one of the Leading Manufacturers of
               Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
               Air Coolers in India. We are known for manufacturing quality
-              products and providing complete solutions through technical
+              products and providing complete products through technical
               expertise and after-sales service to our customers.
             </p>
             <div class="footer-social">
@@ -358,10 +352,10 @@
                 <a class="hover1" href="./radiator.php"> Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
+                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
+                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
                 <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>

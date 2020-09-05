@@ -6,16 +6,16 @@ if (isset($_POST['btn-send'])) {
 
 
     if (empty($UserName) || empty($Email)) {
-        header('location:solutions.php?error');
+        header('location:products.php?error');
     } else {
         $to = "info@saaswad.com";
         $Msg = $UserName . " " . $Email;
         $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
         if (mail($to, "I want to have business with you", $Msg, $headers)) {
-            header('location:solutions.php?success');
+            header('location:products.php?success');
         }
     }
 } else {
-    header("location:solutions.php");
+    header("location:products.php");
 }

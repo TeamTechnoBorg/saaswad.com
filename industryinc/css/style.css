@@ -1275,7 +1275,7 @@ ol {
   height: 100%;
   left: 0;
   top: 0;
-   border: 2px solid black;
+  border: 2px solid black;
   opacity: 1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1315,7 +1315,7 @@ ol {
 }
 
 /* -----------------
-  Solutions Page
+  products Page
  --------------------*/
 
 .services-2-section {
@@ -1336,7 +1336,7 @@ ol {
   background: black;
 }
 .reserch-section1 {
-  background: 	#F5FFFA;
+  background: #f5fffa;
 }
 
 .reserch-tab-menu {

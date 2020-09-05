@@ -152,7 +152,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li>
-            <a href="solutions.php">Products</a>
+            <a href="products.php">Products</a>
           </li>
           <li><a href="blog.html">Facilities</a></li>
           <li><a href="contact.php">Contact</a></li>
@@ -192,28 +192,29 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/14.jpg" alt="" />
+          <img src="img/newimage1_t.png" alt="" />
         </div>
         <div class="col-lg-6">
-          <div class="about-text text-center">
-            <h2 style="font-weight: bolder;">Turbo After Cooler</h2>
+          <div class="about-text">
+            <center>
+              <h2 style="font-weight: bolder;">Turbo After Cooler</h2>
+            </center>
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;
                 ">
-              SAASWAD’S range of Charge air coolers (CAC) or Intercoolers/
-              After coolers have proved very successful in cooling engine
-              intake of air for increased power, improved fuel economy and
-              emission . The CACS manufactured at SAASWAD with controlled
-              atmosphere brazing processes are available in following
-              categories :- <br />
-              Material: Aluminum <br />
-              Design Types: Fin & Tube / Bar & Plate <br />
-              Off-Road / Construction Equipment Backhoe Loaders, Dumpers,
-              Dozers and Concrete Mixtures etc. Industrial Power Generation
-              Engines: 75 KVA-1010 KVA
+              SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers have proved very successful in cooling engine intake of air for increased power, improved fuel economy and emission . The CACS manufactured at SAASWAD with controlled atmosphere brazing processes as well as Mechanical bonded process in following categories :-<br>
+              <ul style="list-style-type: disc; font-size: 1.25rem;
+                  font-family: Cambria, Cochin, Georgia, Times,
+                    'Times New Roman', serif;color:#718090">
+                <li>Material: Aluminum & Copper brass</li>
+                <li>Design Types: Fin & Tube / Bar & Plate</li>
+                <li>Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures, Locomotives, DG Sets etc.</li>
+                <li>Industrial Power Generation Engines: 125 KVA-3000 KVA</li>
+              </ul>
             </p>
+
             <div class="about-sign">
               <!-- <div class="sign">
                   <img src="img/sign.png" alt="" />
@@ -222,9 +223,9 @@
                   <h5>Mr. Rai Ashwani Kumar</h5>
                   <span>Managing Director</span>
                 </div> -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
-                Get Quote
-              </button>
+              <center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
+                  Get Quote
+                </button></center>
             </div>
           </div>
         </div>
@@ -311,7 +312,7 @@
           <ul class="footer-menu text-center">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
-            <li><a href="solutions.php">Products</a></li>
+            <li><a href="products.php">Products</a></li>
             <li><a href="blog.html">Facilities</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
@@ -332,7 +333,7 @@
               We introduce ourselves as one of the Leading Manufacturers of
               Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
               Air Coolers in India. We are known for manufacturing quality
-              products and providing complete solutions through technical
+              products and providing complete products through technical
               expertise and after-sales service to our customers.
             </p>
             <div class="footer-social">
@@ -351,10 +352,10 @@
                 <a class="hover1" href="./radiator.php"> Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
+                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
+                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
                 <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
