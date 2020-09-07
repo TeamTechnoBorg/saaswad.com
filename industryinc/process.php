@@ -12,7 +12,7 @@ if (isset($_POST['btn-send'])) {
         header('location:contact.php?error');
     } else {
         $to = "info@saaswad.com";
-        $from = "info@saaswad.com";
+        $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
         $Msg = $Msg . " " . strval($No) . " " . $Address;
         if (mail($to, $Subject, $Msg, $headers)) {

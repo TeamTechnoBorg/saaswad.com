@@ -102,7 +102,6 @@
   </div>
   <a href="#" id="scroll" style="display: none;"><span></span></a>
 
-
   <!-- Header section  -->
   <header class="header-section clearfix">
     <!-- <div class="header-top">
@@ -122,26 +121,12 @@
       <a href="index.html" class="site-logo">
         <img src="img/logo_saswad.png" height="80" alt="" />
 
-<<<<<<< HEAD
-          <!-- <span style="color: black;">Saaswad</span> -->
-        </a>
-        <div class="header-right">
-          <div class="header-info-box">
-            <div class="hib-icon">
-              <img src="img/icons/phone.png" alt="" class="" />
-            </div>
-            <div class="hib-text">
-              <h6>+91 8299638409</h6>
-              <p>info@saaswad.com</p>
-            </div>
-=======
         <!-- <span style="color: black;">Saaswad</span> -->
       </a>
       <div class="header-right">
         <div class="header-info-box">
           <div class="hib-icon">
             <img src="img/icons/phone.png" alt="" class="" />
->>>>>>> c73037e8e2d6dd0b02d8aa189eff584a96d197be
           </div>
           <div class="hib-text">
             <h6>+91 9839837999</h6>
@@ -190,7 +175,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
-          <h2>Radiator</h2>
+          <h2>Custom designed heat exchangers</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -207,29 +192,26 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/newimage5.jpg" alt="" />
+          <img src="img/11.jpg" alt="" />
         </div>
         <div class="col-lg-6">
           <div class="about-text">
             <center>
-              <h2 style="font-weight: bolder;">Radiator</h2>
+              <h2 style="font-weight: bolder;">Custom designed heat exchangers</h2>
             </center>
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;
                 ">
-              With required emission specifications,we at SAASWAD produce
-              radiators that are most efficient for a compact frontal area. We
-              have proven results for non automotive applications. <br>
+              We at SAASWAD have proven capabilities and expertise to provide customized engine cooling systems that consist of multiple heat exchangers and auxiliary components such as tan shrouds, re-circulation shields, and DE Beration tanks. The designs we provide have multiple mounting options to meet diverse engine types and performance parameters and can be directly installed on the engine assembly lines. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;color:#718090">
-                <li> Material: Aluminum & Copper Brass</li>
-                <li>Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</li>
-                <li>Generation Engines :125 KVA to 1250 KVA</li>
-                <li>Locomotive Engine : 1350
-                  HP TO 4500 HP Radiators</li>
+                <li>The custom manufactured engine cooling systems include all components, as listed below, needed to install and connect the heat exchanger to respective engines</li>
+                <li>Drive kit with premium belts, pulleys, and stub shaft</li>
+                <li>Pipe kit with custom-formed pipes to interface with engine specifications > Radiator base designed to interface with specific engine rail</li>
+                <li>Optional galvanized steel and heat exchanger coatings for enhanced corrosion protection</li>
               </ul>
             </p>
 
@@ -256,7 +238,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">
-            Interested in Radiators?
+            Interested in Custom designed heat exchangers?
           </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -280,7 +262,7 @@
           }
 
           ?>
-          <form action="process2.php" method="post">
+          <form action="process3.php" method="post">
             <div class="form-group">
               <!-- <label for="exampleInputPassword1">Password</label> -->
               <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Enter Name" />
@@ -414,18 +396,6 @@
                   Mahmoorganj,Varanasi Uttar Pradesh,India-221010
                 </p>
               </div>
-<<<<<<< HEAD
-              <div class="footer-info-box">
-                <div class="fib-icon">
-                  <img src="img/icons/phone.png" alt="" class="" />
-                </div>
-                <div class="fib-text">
-                  <p>
-                    +91 8299638409<br />
-                    info@saaswad.com
-                  </p>
-                </div>
-=======
             </div>
             <div class="footer-info-box">
               <div class="fib-icon">
@@ -436,7 +406,6 @@
                   +91 9839837999<br />
                   info@saaswad.com
                 </p>
->>>>>>> c73037e8e2d6dd0b02d8aa189eff584a96d197be
               </div>
             </div>
             <!-- <form class="footer-search">

@@ -10,9 +10,9 @@ if (isset($_POST['btn-send'])) {
     } else {
         $to = "info@saaswad.com";
         $Msg = $UserName . " " . $Email;
-        $from = "info@saaswad.com";
+        $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
-        if (mail($to, "I am interested in Mechanically Bonded Radiators", $Msg, $headers)) {
+        if (mail($to, "I am interested in Custom designed heat exchangers", $Msg, $headers)) {
             header('location:mradiator.php?success');
         }
     }

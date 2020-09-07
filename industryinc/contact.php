@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-	<title>SAASWAD</title>
+	<title>Saaswad Heat Transfer And Engineering Pvt Ltd</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="SAASWAD.com">
 	<meta name="keywords" content="industry, html">
@@ -22,6 +22,19 @@
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96171225-3">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-96171225-3');
+	</script>
 
 
 	<!--[if lt IE 9]>
@@ -151,7 +164,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About us</a></li>
 					<li>
-						<a href="solutions.php">Products</a>
+						<a href="products.php">Products</a>
 					</li>
 					<li><a href="blog.html">Facilities</a></li>
 					<li class="active"><a href="contact.php">Contact</a></li>
@@ -403,7 +416,7 @@
 					<ul class="footer-menu text-center">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About us</a></li>
-						<li><a href="solutions.php">Products</a></li>
+						<li><a href="products.php">Products</a></li>
 						<li><a href="blog.html">Facilities</a></li>
 						<li class="active"><a href="contact.php">Contact</a></li>
 					</ul>
@@ -424,7 +437,7 @@
 							We introduce ourselves as one of the Leading Manufacturers of
 							Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
 							Air Coolers in India. We are known for manufacturing quality
-							products and providing complete solutions through technical
+							products and providing complete products through technical
 							expertise and after-sales service to our customers.
 						</p>
 						<div class="footer-social">
@@ -440,17 +453,17 @@
 						<h2 class="fw-title">Our Products</h2>
 						<ul>
 							<li>
-								<a class="hover1" href="./radiator.html">
+								<a class="hover1" href="./radiator.php">
 									Radiators</a>
 							</li>
 							<li>
-								<a class="hover1" href="./mradiator.html">Mechanically Bonded Radiators</a>
+								<a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
 							</li>
 							<li>
-								<a class="hover1" href="./acooler.html">Radiator, Oil cooler and AfterCoolers Assembly</a>
+								<a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
 							</li>
 							<li>
-								<a class="hover1" href="./tacooler.html">Turbo After Cooler</a>
+								<a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
 							</li>
 							<!-- <li><a href="">Oil Extractions</a></li>
 					<li><a href="">About our Work</a></li> -->
