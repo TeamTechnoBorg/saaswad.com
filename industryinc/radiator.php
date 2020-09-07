@@ -122,26 +122,12 @@
       <a href="index.html" class="site-logo">
         <img src="img/logo_saswad.png" height="80" alt="" />
 
-<<<<<<< HEAD
-          <!-- <span style="color: black;">Saaswad</span> -->
-        </a>
-        <div class="header-right">
-          <div class="header-info-box">
-            <div class="hib-icon">
-              <img src="img/icons/phone.png" alt="" class="" />
-            </div>
-            <div class="hib-text">
-              <h6>+91 8299638409</h6>
-              <p>info@saaswad.com</p>
-            </div>
-=======
         <!-- <span style="color: black;">Saaswad</span> -->
       </a>
       <div class="header-right">
         <div class="header-info-box">
           <div class="hib-icon">
             <img src="img/icons/phone.png" alt="" class="" />
->>>>>>> c73037e8e2d6dd0b02d8aa189eff584a96d197be
           </div>
           <div class="hib-text">
             <h6>+91 9839837999</h6>
@@ -207,7 +193,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/newimage5.jpg" alt="" />
+          <img src="img/newimage5.JPG" alt="" />
         </div>
         <div class="col-lg-6">
           <div class="about-text">
@@ -414,8 +400,7 @@
                   Mahmoorganj,Varanasi Uttar Pradesh,India-221010
                 </p>
               </div>
-<<<<<<< HEAD
-              <div class="footer-info-box">
+              <<<<<<< HEAD <div class="footer-info-box">
                 <div class="fib-icon">
                   <img src="img/icons/phone.png" alt="" class="" />
                 </div>
@@ -425,7 +410,7 @@
                     info@saaswad.com
                   </p>
                 </div>
-=======
+                =======
             </div>
             <div class="footer-info-box">
               <div class="fib-icon">
@@ -436,7 +421,7 @@
                   +91 9839837999<br />
                   info@saaswad.com
                 </p>
->>>>>>> c73037e8e2d6dd0b02d8aa189eff584a96d197be
+                >>>>>>> c73037e8e2d6dd0b02d8aa189eff584a96d197be
               </div>
             </div>
             <!-- <form class="footer-search">
