@@ -119,7 +119,7 @@
       </div> -->
     <div class="site-navbar">
       <!-- Logo -->
-      <a href="index.html" class="site-logo">
+      <a href="main.html" class="site-logo">
         <img src="img/logo_saswad.png" height="80" alt="" />
 
         <!-- <span style="color: black;">Saaswad</span> -->
@@ -150,7 +150,7 @@
       <!-- Menu -->
       <nav class="site-nav-menu">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="main.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li>
             <a href="solutions.php">Products</a>
@@ -306,7 +306,7 @@
       <div class="row">
         <div class="col-lg-12 order-1 order-lg-2 p-0">
           <ul class="footer-menu text-center">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="main.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="solutions.php">Products</a></li>
             <li><a href="blog.html">Facilities</a></li>
