@@ -202,7 +202,7 @@
             <img src="img/icons/phone.png" alt="" class="" />
           </div>
           <div class="hib-text">
-            <h6>+91 9839837999</h6>
+            <h6>+91 8299638409</h6>
             <p>info@saaswad.com</p>
           </div>
         </div>
@@ -225,7 +225,7 @@
           <li><a href="main.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li class="active">
-            <a href="solutions.php">Products</a>
+            <a href="products.php">Products</a>
           </li>
           <li><a href="blog.html">Facilities</a></li>
           <li><a href="contact.php">Contact</a></li>
@@ -368,16 +368,19 @@
         <div class="col-lg-4">
           <ul class="nav nav-tabs reserch-tab-menu" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Radiators</a>
+              <a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Industrial Radiators</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Mechanically Bonded Radiators</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Customized Heat Exchangers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Radiator, Oil cooler and AfterCoolers Assembly</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Oil Coolers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Turbo After Cooler</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Charged Air Coolers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false">Mechanically Bonded Radiators</a>
             </li>
           </ul>
         </div>
@@ -386,39 +389,46 @@
             <!-- single tab content -->
             <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
               <h2>
-                Radiators
+                Industrial Radiators
               </h2>
-              <img src="img/11.jpg" alt="" width="500" />
+              <img src="img/IMG_9495.JPG" alt="" height="400px" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./radiator.php">
                 Know more
               </a>
             </div>
             <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
               <h2>
-                Mechanically Bonded Radiators
+                Customized Heat Exchangers
               </h2>
-              <img src="img/12.jpg" alt="" width="500" />
+              <img src="img/11.jpg" alt="" width="500" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.php">
                 Know more
               </a>
             </div>
             <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
               <h2>
-                Radiator, Oil cooler and AfterCoolers Assembly
+                Oil Coolers
               </h2>
-              <img src="img/13.jpg" alt="" width="500" />
+              <img src="img/IMG_9580.JPG" alt="" width="300" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./acooler.php">
                 Know more
               </a>
             </div>
             <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
               <h2>
-                Turbo After Cooler
+                Charged Air Coolers
               </h2>
               <img src="img/14.jpg" alt="" width="500" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./tacooler.php">
                 Know more
               </a>
+            </div>
+            <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="tab-5">
+              <h2>
+                Mechanically Bonded Radiators
+              </h2>
+              <img src="img/image94.png" alt="" width="500" />
+
             </div>
           </div>
         </div>
@@ -450,7 +460,7 @@
           <ul class="footer-menu text-center">
             <li><a href="main.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
-            <li class="active"><a href="solutions.php">Products</a></li>
+            <li class="active"><a href="products.php">Products</a></li>
             <li><a href="blog.html">Facilities</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
@@ -471,7 +481,7 @@
               We introduce ourselves as one of the Leading Manufacturers of
               Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
               Air Coolers in India. We are known for manufacturing quality
-              products and providing complete solutions through technical
+              products and providing complete products through technical
               expertise and after-sales service to our customers.
             </p>
             <div class="footer-social">
@@ -491,13 +501,13 @@
                   Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
+                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
+                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->
@@ -542,7 +552,7 @@
               </div>
               <div class="fib-text">
                 <p>
-                  +91 9839837999<br />
+                  +91 8299638409<br />
                   info@saaswad.com
                 </p>
               </div>

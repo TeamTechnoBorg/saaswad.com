@@ -152,7 +152,7 @@
           <li><a href="main.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li>
-            <a href="solutions.php">Products</a>
+            <a href="products.php">Products</a>
           </li>
           <li><a href="blog.html">Facilities</a></li>
           <li><a href="contact.php">Contact</a></li>
@@ -175,7 +175,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
-          <h2>Radiator, Oil cooler and AfterCoolers Assembly</h2>
+          <h2>Oil coolers and condensers</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -192,38 +192,37 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/13.jpg" alt="" />
+          <img src="img/12.png" alt="" width="300" style="padding-top: 30px;" />
         </div>
         <div class="col-lg-6">
-          <div class="about-text text-center">
-            <h2 style="font-weight: bolder;">
-              Radiator, Oil cooler and AfterCoolers Assembly
-            </h2>
+          <div class="about-text">
+
+            <h2 style="font-weight: bolder;">Oil coolers and condensers</h2>
+
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;
                 ">
-              We at SAASWAD make oil coolers of aluminium in a controlled
-              brazing atmosphere. They efficiently and economically reduce
-              high oil and fuel temperature because of the way they are made.
-              The designs we provide are compact , lightweight, high
-              performance with high cooling under demanding engine conditions
-              <br />
-              Material: Aluminum <br />
-              Design Types: Fin & Tube / Bar & Plate <br />
-              Off-Road / Construction Equipment: Backhoe Loaders, Dumpers,
-              Dozers and Concrete Mixtures etc. <br />
-              Industrial Power Generation Engines: 250 KVA - 2000 KVA
+              We at Saaswad , make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. They are efficient for reducing high oil temperature. The designs we provide are compact , lightweight, high performance with required cooling under demanding engine conditions. <br>
+              <ul style="list-style-type: disc; font-size: 1.25rem;
+                  font-family: Cambria, Cochin, Georgia, Times,
+                    'Times New Roman', serif;color:black">
+                <li>Material: Aluminum</li>
+                <li>Design Types: Fin & Tube / Bar & Plate</li>
+                <li>Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures etc.</li>
+                <li>Industrial Power Generation Engines: 250 KVA - 2000 KVA</li>
+              </ul>
             </p>
+
             <div class="about-sign">
               <!-- <div class="sign">
-                    <img src="img/sign.png" alt="" />
-                  </div> -->
+                  <img src="img/sign.png" alt="" />
+                </div> -->
               <!-- <div class="sign-info">
-                    <h5>Mr. Rai Ashwani Kumar</h5>
-                    <span>Managing Director</span>
-                  </div> -->
+                  <h5>Mr. Rai Ashwani Kumar</h5>
+                  <span>Managing Director</span>
+                </div> -->
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
                 Get Quote
               </button>
@@ -239,7 +238,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">
-            Interested in After Coolers?
+            Interested in Oil coolers and condensers?
           </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -313,7 +312,7 @@
           <ul class="footer-menu text-center">
             <li><a href="main.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
-            <li><a href="solutions.php">Products</a></li>
+            <li><a href="products.php">Products</a></li>
             <li><a href="blog.html">Facilities</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
@@ -334,7 +333,7 @@
               We introduce ourselves as one of the Leading Manufacturers of
               Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
               Air Coolers in India. We are known for manufacturing quality
-              products and providing complete solutions through technical
+              products and providing complete products through technical
               expertise and after-sales service to our customers.
             </p>
             <div class="footer-social">
@@ -353,13 +352,13 @@
                 <a class="hover1" href="./radiator.php"> Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
+                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
+                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->
