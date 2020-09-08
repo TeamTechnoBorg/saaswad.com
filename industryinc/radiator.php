@@ -193,13 +193,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/newimage5.JPG" alt="" />
+          <img src="img/newimage5.JPG" alt="" style="padding-top: 50px;" />
         </div>
         <div class="col-lg-6">
           <div class="about-text">
-            <center>
-              <h2 style="font-weight: bolder;">Radiator</h2>
-            </center>
+
+            <h2 style="font-weight: bolder;">Radiator</h2>
+
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
@@ -210,7 +210,7 @@
               have proven results for non automotive applications. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:#718090">
+                    'Times New Roman', serif;color:black;">
                 <li> Material: Aluminum & Copper Brass</li>
                 <li>Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</li>
                 <li>Generation Engines :125 KVA to 1250 KVA</li>
@@ -227,9 +227,9 @@
                   <h5>Mr. Rai Ashwani Kumar</h5>
                   <span>Managing Director</span>
                 </div> -->
-              <center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
-                  Get Quote
-                </button></center>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
+                Get Quote
+              </button>
             </div>
           </div>
         </div>
@@ -362,7 +362,7 @@
                 <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->

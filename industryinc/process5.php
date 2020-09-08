@@ -12,7 +12,7 @@ if (isset($_POST['btn-send'])) {
         $Msg = $UserName . " " . $Email;
         $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
-        if (mail($to, "I am interested in Turbo After Cooler", $Msg, $headers)) {
+        if (mail($to, "I am interested in Charged Air Cooler", $Msg, $headers)) {
             header('location:tacooler.php?success');
         }
     }

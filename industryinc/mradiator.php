@@ -192,13 +192,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/11.jpg" alt="" />
+          <img src="img/11.jpg" alt="" style="padding-top: 200px;" />
         </div>
         <div class="col-lg-6">
           <div class="about-text">
-            <center>
-              <h2 style="font-weight: bolder;">Custom designed heat exchangers</h2>
-            </center>
+
+            <h2 style="font-weight: bolder;">Custom designed heat exchangers</h2>
+
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
@@ -207,7 +207,7 @@
               We at SAASWAD have proven capabilities and expertise to provide customized engine cooling systems that consist of multiple heat exchangers and auxiliary components such as tan shrouds, re-circulation shields, and DE Beration tanks. The designs we provide have multiple mounting options to meet diverse engine types and performance parameters and can be directly installed on the engine assembly lines. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:#718090">
+                    'Times New Roman', serif;color:black">
                 <li>The custom manufactured engine cooling systems include all components, as listed below, needed to install and connect the heat exchanger to respective engines</li>
                 <li>Drive kit with premium belts, pulleys, and stub shaft</li>
                 <li>Pipe kit with custom-formed pipes to interface with engine specifications > Radiator base designed to interface with specific engine rail</li>
@@ -223,9 +223,9 @@
                   <h5>Mr. Rai Ashwani Kumar</h5>
                   <span>Managing Director</span>
                 </div> -->
-              <center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
-                  Get Quote
-                </button></center>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
+                Get Quote
+              </button>
             </div>
           </div>
         </div>
@@ -358,7 +358,7 @@
                 <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->

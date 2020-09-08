@@ -192,13 +192,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/12.png" alt="" width="300" />
+          <img src="img/12.png" alt="" width="300" style="padding-top: 30px;" />
         </div>
         <div class="col-lg-6">
           <div class="about-text">
-            <center>
-              <h2 style="font-weight: bolder;">Oil coolers and condensers</h2>
-            </center>
+
+            <h2 style="font-weight: bolder;">Oil coolers and condensers</h2>
+
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
@@ -207,7 +207,7 @@
               We at Saaswad , make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. They are efficient for reducing high oil temperature. The designs we provide are compact , lightweight, high performance with required cooling under demanding engine conditions. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:#718090">
+                    'Times New Roman', serif;color:black">
                 <li>Material: Aluminum</li>
                 <li>Design Types: Fin & Tube / Bar & Plate</li>
                 <li>Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures etc.</li>
@@ -223,9 +223,9 @@
                   <h5>Mr. Rai Ashwani Kumar</h5>
                   <span>Managing Director</span>
                 </div> -->
-              <center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
-                  Get Quote
-                </button></center>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
+                Get Quote
+              </button>
             </div>
           </div>
         </div>
@@ -358,7 +358,7 @@
                 <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->

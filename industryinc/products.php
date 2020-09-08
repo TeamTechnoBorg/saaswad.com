@@ -371,13 +371,16 @@
               <a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Industrial Radiators</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Heat Exchangers</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Customized Heat Exchangers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Oil Coolers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Charged Air Coolers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false">Mechanically Bonded Radiators</a>
             </li>
           </ul>
         </div>
@@ -388,14 +391,14 @@
               <h2>
                 Industrial Radiators
               </h2>
-              <img src="img/newimage5_t.png" alt="" width="300" />
+              <img src="img/IMG_9495.JPG" alt="" height="400px" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./radiator.php">
                 Know more
               </a>
             </div>
             <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
               <h2>
-                Heat Exchangers
+                Customized Heat Exchangers
               </h2>
               <img src="img/11.jpg" alt="" width="500" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.php">
@@ -406,7 +409,7 @@
               <h2>
                 Oil Coolers
               </h2>
-              <img src="img/12.png" alt="" width="300" />
+              <img src="img/IMG_9580.JPG" alt="" width="300" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./acooler.php">
                 Know more
               </a>
@@ -415,10 +418,17 @@
               <h2>
                 Charged Air Coolers
               </h2>
-              <img src="img/newimage1_t.png" alt="" width="500" />
+              <img src="img/14.jpg" alt="" width="500" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./tacooler.php">
                 Know more
               </a>
+            </div>
+            <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="tab-5">
+              <h2>
+                Mechanically Bonded Radiators
+              </h2>
+              <img src="img/image94.png" alt="" width="500" />
+
             </div>
           </div>
         </div>
@@ -497,7 +507,7 @@
                 <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Turbo After Cooler</a>
+                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
               </li>
               <!-- <li><a href="">Oil Extractions</a></li>
                 <li><a href="">About our Work</a></li> -->
