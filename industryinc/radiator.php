@@ -93,7 +93,7 @@
       border: 1px solid;
     }
 
-    .ptop {
+    <<<<<<< HEAD .ptop {
       display: none;
     }
 
@@ -103,6 +103,8 @@
         padding-top: 50%;
       }
     }
+
+    =======>>>>>>>61961fe011529af8f7b12c3e79f41778713ffb5e
   </style>
 </head>
 
@@ -321,6 +323,87 @@
     </div>
   </div>
 
+  <section class="features-section spad" style="
+        min-height: 100%;
+      
+         background-color: black;
+
+        
+      ">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-lg-12 text-center" style="margin-bottom: 80px">
+            <h2 style="color: white">
+              Some of the Prestigious Industries We Serve
+            </h2>
+          </div> -->
+
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/heat_exchangers.jpg" alt="" height="200px" />
+            <div class="fb-text">
+              <h5>HEAT EXCAHNGERS</h5>
+              <p>
+                HEAT EXCHANGERS
+              </p>
+              <a href="mradiator.php" class="site-btn">Know more</a>
+
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/oilcooler.JPG" alt="" height="200px" />
+            <div class="fb-text">
+              <h5>OIL COOLERS</h5>
+              <p>
+                OIL COOLERS
+              </p>
+              <a href="acooler.php" class="site-btn">Know more</a>
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/14.jpg" alt="" height="200px" />
+            <div class="fb-text" style="padding-bottom: 16px">
+              <h5>CHARGED AIR COOLERS</h5>
+              <p>
+                CHARGED AIR COOLERS
+              </p>
+              <a href="tacooler.php" class="site-btn">Know more</a>
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/image94.png" alt="" height="200px" />
+            <div class="fb-text" style="padding-bottom: 16px">
+              <h5>MECHANICALLY BONDED RADIATORS</h5>
+              <p>
+                MECHANICALLY BONDED RADIATORS
+              </p>
+              <a href="products.php" class="site-btn">Know more</a>
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- /.container -->
   <!-- Footer section -->
   <div class="footer-buttom">
     <div class="container">
@@ -498,16 +581,17 @@
   </script>
   <script type="text/JavaScript">
     //Script courtesy of BoogieJack.com
-       var message="NoRightClicking";
-       function defeatIE() {if (document.all) {(message);return false;}}
-       function defeatNS(e) {if
-       (document.layers||(document.getElementById&&!document.all)) {
-       if (e.which==2||e.which==3) {(message);return false;}}}
-       if (document.layers)
-       {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
-       else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
-       document.oncontextmenu=new Function("return false")
-     </script>
+      var message="NoRightClicking";
+      function defeatIE() {if (document.all) {(message);return false;}}
+      function defeatNS(e) {if
+      (document.layers||(document.getElementById&&!document.all)) {
+      if (e.which==2||e.which==3) {(message);return false;}}}
+      if (document.layers)
+      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+      else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+      document.oncontextmenu=new Function("return false")
+    </script>
+
 </body>
 
 </html>
