@@ -653,6 +653,33 @@ ol {
 .hero-item h2 span:last-child {
   padding-right: 30px;
 }
+.hero-item h1 {
+  font-size: 90px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 34px;
+  opacity: 0;
+  top: 50px;
+  position: relative;
+}
+.hero-item h1 span {
+  padding-left: 25px;
+  padding-bottom: 15px;
+  display: inline-block;
+  /* background: red; */
+}
+
+.hero-item h1 span:nth-child(1) {
+  /* color: #081624; */
+}
+
+.hero-item h1 span:nth-child(2) {
+  padding-right: 14px;
+}
+
+.hero-item h1 span:last-child {
+  padding-right: 30px;
+}
 
 .hero-item .site-btn {
   opacity: 0;
@@ -1924,6 +1951,9 @@ ul.text-white {
   .hero-item h2 {
     font-size: 60px;
   }
+  .hero-item h1 {
+    font-size: 60px;
+  }
   .video-box {
     height: 500px;
     margin-top: 40px;
@@ -2026,7 +2056,14 @@ ul.text-white {
   .hero-item h2 {
     font-size: 60px;
   }
+  .hero-item h1 {
+    font-size: 60px;
+  }
   .hero-item h2 span:nth-child(1) {
+    color: #081624;
+    padding-right: 15px;
+  }
+  .hero-item h1 span:nth-child(1) {
     color: #081624;
     padding-right: 15px;
   }
@@ -2088,6 +2125,13 @@ ul.text-white {
     font-size: 50px;
   }
   .hero-item h2 span:nth-child(1) {
+    color: white;
+    padding-right: 15px;
+  }
+  .hero-item h1 {
+    font-size: 50px;
+  }
+  .hero-item h1 span:nth-child(1) {
     color: white;
     padding-right: 15px;
   }
