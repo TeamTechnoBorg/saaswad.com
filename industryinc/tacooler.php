@@ -304,6 +304,82 @@
     </div>
   </div>
 
+  <section
+      class="features-section spad"
+      style="
+        min-height: 100%;
+      
+         background-color: black;
+
+        
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-lg-12 text-center" style="margin-bottom: 80px">
+            <h2 style="color: white">
+              Some of the Prestigious Industries We Serve
+            </h2>
+          </div> -->
+
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/radiator.JPG" alt=""  height="300px"/>
+              <div class="fb-text">
+                <h5>RADIATORS</h5>
+                <a href="radiator.php" class="site-btn">Know more</a>
+                <p>
+                  RADIATORS
+                </p>
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/heat_exchangers.jpg" alt="" height="200px" />
+              <div class="fb-text">
+                <h5>HEAT EXCHANGER</h5>
+                <a href="mradiator.php" class="site-btn">Know more</a>
+                <p>
+                  HEAT EXCHANGER
+                </p>
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/oilcooler.JPG" alt="" height="200px"/>
+              <div class="fb-text" style="padding-bottom: 16px">
+                <h5>OIL COOLERS</h5>
+                <p>
+                  OIL COOLERS
+                </p>
+                <a href="acooler.php" class="site-btn">Know more</a>
+                
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/image94.png" alt="" height="200px"/>
+              <div class="fb-text" style="padding-bottom: 16px">
+                <h5>MECHANICALLY BONDED RADIATORS</h5>
+                <p>
+                MECHANICALLY BONDED RADIATORS
+                </p>
+                <a href="products.php" class="site-btn">Know more</a>
+               
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   <!-- Footer section -->
   <div class="footer-buttom">
     <div class="container">

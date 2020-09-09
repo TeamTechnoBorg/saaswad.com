@@ -92,6 +92,9 @@
       background-position: center;
       border: 1px solid;
     }
+    
+ 
+
   </style>
 </head>
 
@@ -307,7 +310,91 @@
       </div>
     </div>
   </div>
+  
+  <section
+      class="features-section spad"
+      style="
+        min-height: 100%;
+      
+         background-color: black;
 
+        
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-lg-12 text-center" style="margin-bottom: 80px">
+            <h2 style="color: white">
+              Some of the Prestigious Industries We Serve
+            </h2>
+          </div> -->
+
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/heat_exchangers.jpg" alt=""  height="200px"/>
+              <div class="fb-text">
+                <h5>HEAT EXCAHNGERS</h5>
+                <p>
+                HEAT EXCHANGERS
+                </p>
+                <a href="mradiator.php" class="site-btn">Know more</a>
+              
+                
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/oilcooler.JPG" alt="" height="200px" />
+              <div class="fb-text">
+                <h5>OIL COOLERS</h5>
+                <p>
+                OIL COOLERS
+                </p>
+                <a href="acooler.php" class="site-btn">Know more</a>
+             
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/14.jpg" alt="" height="200px" / >
+              <div class="fb-text" style="padding-bottom: 16px">
+                <h5>CHARGED AIR COOLERS</h5>
+                <p>
+                CHARGED AIR COOLERS
+                </p>
+                <a href="tacooler.php" class="site-btn">Know more</a>
+                
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="feature-box">
+              <img src="img/image94.png" alt="" height="200px" />
+              <div class="fb-text" style="padding-bottom: 16px">
+                <h5>MECHANICALLY BONDED RADIATORS</h5>
+                <p>
+                MECHANICALLY BONDED RADIATORS
+                </p>
+                <a href="products.php" class="site-btn">Know more</a>
+               
+                <!-- <a href="" class="fb-more-btn">Read More</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+
+  
+<!-- /.container -->
   <!-- Footer section -->
   <div class="footer-buttom">
     <div class="container">
@@ -400,7 +487,7 @@
                   Mahmoorganj,Varanasi Uttar Pradesh,India-221010
                 </p>
               </div>
-              <<<<<<< HEAD <div class="footer-info-box">
+               <div class="footer-info-box">
                 <div class="fib-icon">
                   <img src="img/icons/phone.png" alt="" class="" />
                 </div>
@@ -410,7 +497,7 @@
                     info@saaswad.com
                   </p>
                 </div>
-                =======
+           
             </div>
             <div class="footer-info-box">
               <div class="fib-icon">
@@ -421,7 +508,7 @@
                   +91 9839837999<br />
                   info@saaswad.com
                 </p>
-                >>>>>>> c73037e8e2d6dd0b02d8aa189eff584a96d197be
+                
               </div>
             </div>
             <!-- <form class="footer-search">
@@ -495,7 +582,7 @@
       });
     });
   </script>
-  <script type="text/JavaScript">
+  <!-- <script type="text/JavaScript">
     //Script courtesy of BoogieJack.com
       var message="NoRightClicking";
       function defeatIE() {if (document.all) {(message);return false;}}
@@ -506,7 +593,7 @@
       {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
       else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
       document.oncontextmenu=new Function("return false")
-    </script>
+    </script> -->
 </body>
 
 </html>
