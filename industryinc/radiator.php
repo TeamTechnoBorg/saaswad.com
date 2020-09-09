@@ -329,15 +329,15 @@
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
-            <div style="margin-bottom: 25px;">
-              <img src="img/logo_saswadw.png" style="margin-right: 5px;" height="30" alt="" />
+            <div style="margin-bottom: 25px">
+              <img src="img/logo_saswadw.png" style="margin-right: 5px" height="30" alt="" />
               <span class="fw-title">Saaswad</span>
             </div>
             <p>
               We introduce ourselves as one of the Leading Manufacturers of
               Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
               Air Coolers in India. We are known for manufacturing quality
-              products and providing complete products through technical
+              products and providing complete solutions through technical
               expertise and after-sales service to our customers.
             </p>
             <div class="footer-social">
@@ -356,10 +356,10 @@
                 <a class="hover1" href="./radiator.php"> Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
+                <a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
+                <a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
               </li>
               <li>
                 <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
@@ -400,17 +400,6 @@
                   Mahmoorganj,Varanasi Uttar Pradesh,India-221010
                 </p>
               </div>
-              <<<<<<< HEAD <div class="footer-info-box">
-                <div class="fib-icon">
-                  <img src="img/icons/phone.png" alt="" class="" />
-                </div>
-                <div class="fib-text">
-                  <p>
-                    +91 8299638409<br />
-                    info@saaswad.com
-                  </p>
-                </div>
-                =======
             </div>
             <div class="footer-info-box">
               <div class="fib-icon">
@@ -421,7 +410,6 @@
                   +91 9839837999<br />
                   info@saaswad.com
                 </p>
-                >>>>>>> c73037e8e2d6dd0b02d8aa189eff584a96d197be
               </div>
             </div>
             <!-- <form class="footer-search">

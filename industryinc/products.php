@@ -400,7 +400,7 @@
               <h2>
                 Customized Heat Exchangers
               </h2>
-              <img src="img/11.jpg" alt="" width="500" />
+              <img src="img/img.jpg" alt="" width="500" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.php">
                 Know more
               </a>
