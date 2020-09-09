@@ -92,6 +92,17 @@
       background-position: center;
       border: 1px solid;
     }
+
+    .ptop {
+      display: none;
+    }
+
+    @media (min-width: 992px) {
+      .ptop {
+        display: block;
+        padding-top: 50%;
+      }
+    }
   </style>
 </head>
 
@@ -175,8 +186,8 @@
       ">
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
-          <h2>Radiator</h2>
+        <div class="col-lg-4">
+          <h2 class="ptop">Product</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -184,6 +195,10 @@
            </p> -->
           <!-- <a href="#expertise" class="site-btn">Know More</a> -->
         </div>
+        <div class="col-lg-4" style="text-align: center;">
+          <img src="img/newimage5_t.png" alt="">
+        </div>
+
       </div>
     </div>
   </section>
@@ -192,10 +207,7 @@
   <section class="about-section spad">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <img src="img/newimage5.JPG" alt="" style="padding-top: 50px;" />
-        </div>
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <div class="about-text">
 
             <h2 style="font-weight: bolder;">Radiator</h2>
@@ -206,7 +218,7 @@
                     'Times New Roman', serif;
                 ">
               With required emission specifications,we at SAASWAD produce
-              radiators that are most efficient for a compact frontal area. We
+              radiators that are most efficient for a compact frontal area. <br> We
               have proven results for non automotive applications. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
@@ -230,6 +242,7 @@
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
                 Get Quote
               </button>
+              <a href="img/INDUSTRIAL RADIATOR.pdf" download class="btn btn-primary" style="background-color: black; border-color:black;">Brochure</a>
             </div>
           </div>
         </div>
@@ -329,15 +342,15 @@
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
-            <div style="margin-bottom: 25px">
-              <img src="img/logo_saswadw.png" style="margin-right: 5px" height="30" alt="" />
+            <div style="margin-bottom: 25px;">
+              <img src="img/logo_saswadw.png" style="margin-right: 5px;" height="30" alt="" />
               <span class="fw-title">Saaswad</span>
             </div>
             <p>
               We introduce ourselves as one of the Leading Manufacturers of
               Industrial Radiators, Oil Coolers, Heat Exchangers and Charged
               Air Coolers in India. We are known for manufacturing quality
-              products and providing complete solutions through technical
+              products and providing complete products through technical
               expertise and after-sales service to our customers.
             </p>
             <div class="footer-social">
@@ -356,10 +369,10 @@
                 <a class="hover1" href="./radiator.php"> Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Mechanically Bonded Radiators</a>
+                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Radiator, Oil cooler and AfterCoolers Assembly</a>
+                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
               </li>
               <li>
                 <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
@@ -485,16 +498,16 @@
   </script>
   <script type="text/JavaScript">
     //Script courtesy of BoogieJack.com
-      var message="NoRightClicking";
-      function defeatIE() {if (document.all) {(message);return false;}}
-      function defeatNS(e) {if
-      (document.layers||(document.getElementById&&!document.all)) {
-      if (e.which==2||e.which==3) {(message);return false;}}}
-      if (document.layers)
-      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
-      else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
-      document.oncontextmenu=new Function("return false")
-    </script>
+       var message="NoRightClicking";
+       function defeatIE() {if (document.all) {(message);return false;}}
+       function defeatNS(e) {if
+       (document.layers||(document.getElementById&&!document.all)) {
+       if (e.which==2||e.which==3) {(message);return false;}}}
+       if (document.layers)
+       {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+       else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+       document.oncontextmenu=new Function("return false")
+     </script>
 </body>
 
 </html>

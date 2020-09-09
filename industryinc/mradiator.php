@@ -92,6 +92,17 @@
       background-position: center;
       border: 1px solid;
     }
+
+    .ptop {
+      display: none;
+    }
+
+    @media (min-width: 992px) {
+      .ptop {
+        display: block;
+        padding-top: 50%;
+      }
+    }
   </style>
 </head>
 
@@ -174,8 +185,8 @@
       ">
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
-          <h2>Custom designed heat exchangers</h2>
+        <div class="col-lg-4">
+          <h2 class="ptop">Product</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -183,6 +194,10 @@
            </p> -->
           <!-- <a href="#expertise" class="site-btn">Know More</a> -->
         </div>
+        <div class="col-lg-4" style="text-align: center;">
+          <img src="img/heat-exchangers-homepage.png" alt="">
+        </div>
+
       </div>
     </div>
   </section>
@@ -191,10 +206,8 @@
   <section class="about-section spad">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <img src="img/11.jpg" alt="" style="padding-top: 200px;" />
-        </div>
-        <div class="col-lg-6">
+
+        <div class="col-lg-12">
           <div class="about-text">
 
             <h2 style="font-weight: bolder;">Custom designed heat exchangers</h2>
@@ -226,6 +239,7 @@
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
                 Get Quote
               </button>
+
             </div>
           </div>
         </div>
