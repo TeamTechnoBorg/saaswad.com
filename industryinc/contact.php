@@ -209,6 +209,17 @@
 			</div>
 		</div>
 	</section>-->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12" style="text-align: center;">
+				<h3 style="margin-top: 80px;">
+					We believe in joint ventures and to be partners while doing business with you. We will also
+					provide you with post delivery maintenance and support
+				</h3>
+
+			</div>
+		</div>
+	</div>
 	<!-- Page top section end  -->
 
 
