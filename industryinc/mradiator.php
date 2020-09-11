@@ -140,7 +140,7 @@
             <img src="img/icons/phone.png" alt="" class="" />
           </div>
           <div class="hib-text">
-            <h6>+91 9839837999</h6>
+            <h6>+91 8299638409</h6>
             <p>info@saaswad.com</p>
           </div>
         </div>
@@ -495,7 +495,7 @@
               </div>
               <div class="fib-text">
                 <p>
-                  +91 9839837999<br />
+                  +91 8299638409<br />
                   info@saaswad.com
                 </p>
               </div>
