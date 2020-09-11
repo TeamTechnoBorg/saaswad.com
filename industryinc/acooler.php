@@ -334,7 +334,7 @@
             <div class="fb-text">
               <h5>CHARGED AIR COOLERS</h5>
               <p>
-                CHARGED AIR COOLERS
+              SAASWAD’S range of Charge air coolers (CAC)..
               </p>
               <a href="tacooler.php" class="site-btn">Know more</a>
 
@@ -344,13 +344,14 @@
         </div>
         <div class="col-lg-3 col-md-12">
           <div class="feature-box">
-            <img src="img/radiator.JPG" alt="" height="300px" />
-            <div class="fb-text">
+            <img src="img/radiator.JPG" alt="" height="200px" />
+            <div class="fb-text" style="padding-bottom: 43px">
               <h5>RADIATORS</h5>
               <p>
-                RADIATORS
+              We at SAASWAD produce radiators ...
               </p>
               <a href="radiator.php" class="site-btn">Know more</a>
+
 
 
               <!-- <a href="" class="fb-more-btn">Read More</a> -->
@@ -360,10 +361,10 @@
         <div class="col-lg-3 col-md-12">
           <div class="feature-box">
             <img src="img/heat_exchangers.jpg" alt="" height="200px" />
-            <div class="fb-text" style="padding-bottom: 16px">
+            <div class="fb-text" style="padding-bottom: 43px">
               <h5>HEAT EXCAHNGER</h5>
               <p>
-                HEAT EXCHANGER
+              We at SAASWAD have proven capabilities and expertise ..
               </p>
               <a href="mradiator.php" class="site-btn">Know more</a>
 
@@ -375,13 +376,12 @@
         <div class="col-lg-3 col-md-12">
           <div class="feature-box">
             <img src="img/image94.png" alt="" height="200px" />
-            <div class="fb-text" style="padding-bottom: 16px">
+            <div class="fb-text" style="padding-bottom: 21px">
               <h5>MECHANICALLY BONDED RADIATORS</h5>
               <p>
-                MECHANICALLY BONDED RADIATORS
+              With required emission specifications..
               </p>
-              <a href="products.php" class="site-btn">Know more</a>
-
+              <a href="mbradiator.php" class="site-btn">Know more</a>
 
               <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>

@@ -341,7 +341,7 @@
             <div class="fb-text">
               <h5>HEAT EXCAHNGERS</h5>
               <p>
-                MECHANICALLY BONDED RADIATORS
+              We at SAASWAD have proven capabilities and expertise ..
               </p>
               <a href="mradiator.php" class="site-btn">Know more</a>
 
@@ -356,7 +356,7 @@
             <div class="fb-text">
               <h5>OIL COOLERS</h5>
               <p>
-                MECHANICALLY BONDED RADIATORS
+              We at Saaswad , make oil coolers of aluminium ..
               </p>
               <a href="acooler.php" class="site-btn">Know more</a>
 
@@ -370,7 +370,7 @@
             <div class="fb-text" style="padding-bottom: 43px">
               <h5>CHARGED AIR COOLERS</h5>
               <p>
-                MECHANICALLY BONDED RADIATORS
+              SAASWAD’S range of Charge air coolers (CAC)..
               </p>
               <a href="tacooler.php" class="site-btn">Know more</a>
 
@@ -384,9 +384,9 @@
             <div class="fb-text" style="padding-bottom: 21px">
               <h5>MECHANICALLY BONDED RADIATORS</h5>
               <p>
-                MECHANICALLY BONDED RADIATORS
+              With required emission specifications..
               </p>
-              <a href="products.php" class="site-btn">Know more</a>
+              <a href="mbradiator.php" class="site-btn">Know more</a>
 
               <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
