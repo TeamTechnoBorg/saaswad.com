@@ -100,7 +100,7 @@
     @media (min-width: 992px) {
       .ptop {
         display: block;
-        padding-top: 50%;
+        padding-top: 55%;
       }
     }
   </style>
@@ -175,18 +175,14 @@
 
   <!-- Page top section  -->
   <section class="page-top-section" style="
-        background: linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)
-          ),
-          url(img/products_cover.jpg);
+        background: 
+          url(img/products_cover.jpeg);
         background-size: cover;
       ">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
-          <h2 class="ptop">Product</h2>
+        <div class="col-lg-6">
+          <h2 class="ptop" style="color: black; font-weight:bolder;">Product/Oil Coolers</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -194,8 +190,9 @@
            </p> -->
           <!-- <a href="#expertise" class="site-btn">Know More</a> -->
         </div>
-        <div class="col-lg-4" style="text-align: center;">
-          <img src="img/oil-coolers-homepage.png" alt="" height="300">
+
+        <div class="col-lg-6">
+          <img src="img/oil-coolers-homepage.png" alt="" style="padding-top: 20px; margin-left:320px;" height="300px">
         </div>
 
       </div>
@@ -316,86 +313,83 @@
       </div>
     </div>
   </div>
-  <section
-      class="features-section spad"
-      style="
+  <section class="features-section spad" style="
         min-height: 100%;
       
          background-color: black;
 
         
-      "
-    >
-      <div class="container">
-        <div class="row">
-          <!-- <div class="col-lg-12 text-center" style="margin-bottom: 80px">
+      ">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-lg-12 text-center" style="margin-bottom: 80px">
             <h2 style="color: white">
               Some of the Prestigious Industries We Serve
             </h2>
           </div> -->
 
-          <div class="col-lg-3 col-md-12">
-            <div class="feature-box">
-              <img src="img/14.jpg" alt="Indian Railways served"  height="200px"/>
-              <div class="fb-text">
-                <h5>CHARGED AIR COOLERS</h5>
-                <p>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/14.jpg" alt="Indian Railways served" height="200px" />
+            <div class="fb-text">
+              <h5>CHARGED AIR COOLERS</h5>
+              <p>
                 CHARGED AIR COOLERS
-                </p>
-                <a href="tacooler.php" class="site-btn">Know more</a>
-               
-                <!-- <a href="" class="fb-more-btn">Read More</a> -->
-              </div>
+              </p>
+              <a href="tacooler.php" class="site-btn">Know more</a>
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
           </div>
-          <div class="col-lg-3 col-md-12">
-            <div class="feature-box">
-              <img src="img/radiator.JPG" alt="" height="300px" />
-              <div class="fb-text">
-                <h5>RADIATORS</h5>
-                <p>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/radiator.JPG" alt="" height="300px" />
+            <div class="fb-text">
+              <h5>RADIATORS</h5>
+              <p>
                 RADIATORS
-                </p>
-                <a href="radiator.php" class="site-btn">Know more</a>
-                
-               
-                <!-- <a href="" class="fb-more-btn">Read More</a> -->
-              </div>
+              </p>
+              <a href="radiator.php" class="site-btn">Know more</a>
+
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
           </div>
-          <div class="col-lg-3 col-md-12">
-            <div class="feature-box">
-              <img src="img/heat_exchangers.jpg" alt="" height="200px" />
-              <div class="fb-text" style="padding-bottom: 16px">
-                <h5>HEAT EXCAHNGER</h5>
-                <p>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/heat_exchangers.jpg" alt="" height="200px" />
+            <div class="fb-text" style="padding-bottom: 16px">
+              <h5>HEAT EXCAHNGER</h5>
+              <p>
                 HEAT EXCHANGER
-                </p>
-                <a href="mradiator.php" class="site-btn">Know more</a>
-               
-                
-                <!-- <a href="" class="fb-more-btn">Read More</a> -->
-              </div>
+              </p>
+              <a href="mradiator.php" class="site-btn">Know more</a>
+
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
           </div>
-          <div class="col-lg-3 col-md-12">
-            <div class="feature-box">
-              <img src="img/image94.png" alt="" height="200px"/>
-              <div class="fb-text" style="padding-bottom: 16px">
-                <h5>MECHANICALLY BONDED RADIATORS</h5>
-                <p>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/image94.png" alt="" height="200px" />
+            <div class="fb-text" style="padding-bottom: 16px">
+              <h5>MECHANICALLY BONDED RADIATORS</h5>
+              <p>
                 MECHANICALLY BONDED RADIATORS
-                </p>
-                <a href="products.php" class="site-btn">Know more</a>
-                
-                
-                <!-- <a href="" class="fb-more-btn">Read More</a> -->
-              </div>
+              </p>
+              <a href="products.php" class="site-btn">Know more</a>
+
+
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   <!-- Footer section -->
   <div class="footer-buttom">
     <div class="container">

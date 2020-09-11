@@ -391,7 +391,7 @@
               <h2>
                 Industrial Radiators
               </h2>
-              <img src="img/IMG_9495.JPG" alt="" height="400px" />
+              <img src="img/newimage5_t.png" alt="" height="400px" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./radiator.php">
                 Know more
               </a>
@@ -400,7 +400,7 @@
               <h2>
                 Customized Heat Exchangers
               </h2>
-              <img src="img/img.jpg" alt="" width="500" />
+              <img src="img/heat_exchangers.jpg" alt="" width="500" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.php">
                 Know more
               </a>
@@ -409,7 +409,7 @@
               <h2>
                 Oil Coolers
               </h2>
-              <img src="img/IMG_9580.JPG" alt="" width="300" />
+              <img src="img/oil-coolers-homepage.png" alt="" width="300" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./acooler.php">
                 Know more
               </a>
@@ -428,6 +428,9 @@
                 Mechanically Bonded Radiators
               </h2>
               <img src="img/image94.png" alt="" width="500" />
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mbradiator.php">
+                Know more
+              </a>
 
             </div>
           </div>

@@ -93,18 +93,16 @@
       border: 1px solid;
     }
 
-    <<<<<<< HEAD .ptop {
+    .ptop {
       display: none;
     }
 
     @media (min-width: 992px) {
       .ptop {
         display: block;
-        padding-top: 50%;
+        padding-top: 80%;
       }
     }
-
-    =======>>>>>>>61961fe011529af8f7b12c3e79f41778713ffb5e
   </style>
 </head>
 
@@ -178,24 +176,23 @@
 
   <!-- Page top section  -->
   <section class="page-top-section" style="
-        background: linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)
-          ),
-          url(img/products_cover.jpg);
+        background: 
+          url(img/products_cover.jpeg);
         background-size: cover;
       ">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <h2 class="ptop">Product</h2>
+          <h2 class="ptop" style="color: black; font-weight:bolder;">Product/Radiator</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
              ornare ipsum ac accumsan auctor.
            </p> -->
           <!-- <a href="#expertise" class="site-btn">Know More</a> -->
+        </div>
+        <div class="col-lg-4" style="text-align: center;">
+
         </div>
         <div class="col-lg-4" style="text-align: center;">
           <img src="img/newimage5_t.png" alt="">
@@ -344,7 +341,7 @@
             <div class="fb-text">
               <h5>HEAT EXCAHNGERS</h5>
               <p>
-                HEAT EXCHANGERS
+                MECHANICALLY BONDED RADIATORS
               </p>
               <a href="mradiator.php" class="site-btn">Know more</a>
 
@@ -359,7 +356,7 @@
             <div class="fb-text">
               <h5>OIL COOLERS</h5>
               <p>
-                OIL COOLERS
+                MECHANICALLY BONDED RADIATORS
               </p>
               <a href="acooler.php" class="site-btn">Know more</a>
 
@@ -370,10 +367,10 @@
         <div class="col-lg-3 col-md-12">
           <div class="feature-box">
             <img src="img/14.jpg" alt="" height="200px" />
-            <div class="fb-text" style="padding-bottom: 16px">
+            <div class="fb-text" style="padding-bottom: 43px">
               <h5>CHARGED AIR COOLERS</h5>
               <p>
-                CHARGED AIR COOLERS
+                MECHANICALLY BONDED RADIATORS
               </p>
               <a href="tacooler.php" class="site-btn">Know more</a>
 
@@ -384,7 +381,7 @@
         <div class="col-lg-3 col-md-12">
           <div class="feature-box">
             <img src="img/image94.png" alt="" height="200px" />
-            <div class="fb-text" style="padding-bottom: 16px">
+            <div class="fb-text" style="padding-bottom: 21px">
               <h5>MECHANICALLY BONDED RADIATORS</h5>
               <p>
                 MECHANICALLY BONDED RADIATORS
