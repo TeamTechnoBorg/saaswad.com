@@ -217,7 +217,7 @@
               SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers have proved very successful in cooling engine intake of air for increased power, improved fuel economy and emission . The CACS manufactured at SAASWAD with controlled atmosphere brazing processes as well as Mechanical bonded process in following categories :-<br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:black">
+                    'Times New Roman', serif;color:black;padding-left:20px;">
                 <li>Material: Aluminum & Copper brass</li>
                 <li>Design Types: Fin & Tube / Bar & Plate</li>
                 <li>Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures, Locomotives, DG Sets etc.</li>
@@ -330,13 +330,13 @@
             </h2>
           </div> -->
 
-          <div class="col-lg-3 col-md-12">
+        <div class="col-lg-3 col-md-12">
           <div class="feature-box">
             <img src="img/radiator.JPG" alt="" height="200px" />
             <div class="fb-text" style="padding-bottom: 43px">
               <h5>RADIATORS</h5>
               <p>
-              We at SAASWAD produce radiators ...
+                We at SAASWAD produce radiators ...
               </p>
               <a href="radiator.php" class="site-btn">Know more</a>
 
@@ -352,10 +352,10 @@
             <div class="fb-text">
               <h5>HEAT EXCHANGER</h5>
               <p>
-              We at SAASWAD have proven capabilities and expertise ..
+                We at SAASWAD have proven capabilities and expertise ..
               </p>
               <a href="mradiator.php" class="site-btn">Know more</a>
-             
+
               <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
           </div>
@@ -366,7 +366,7 @@
             <div class="fb-text" style="padding-bottom: 43px">
               <h5>OIL COOLERS</h5>
               <p>
-              We at Saaswad , make oil coolers of aluminium ..
+                We at Saaswad , make oil coolers of aluminium ..
               </p>
               <a href="acooler.php" class="site-btn">Know more</a>
 
@@ -380,7 +380,7 @@
             <div class="fb-text" style="padding-bottom: 21px">
               <h5>MECHANICALLY BONDED RADIATORS</h5>
               <p>
-              With required emission specifications..
+                With required emission specifications..
               </p>
               <a href="mbradiator.php" class="site-btn">Know more</a>
 

@@ -217,7 +217,7 @@
               We at SAASWAD have proven capabilities and expertise to provide customized engine cooling systems that consist of multiple heat exchangers and auxiliary components such as tan shrouds, re-circulation shields, and DE Beration tanks. The designs we provide have multiple mounting options to meet diverse engine types and performance parameters and can be directly installed on the engine assembly lines. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:black">
+                    'Times New Roman', serif;color:black;padding-left:20px;">
                 <li>The custom manufactured engine cooling systems include all components, as listed below, needed to install and connect the heat exchanger to respective engines</li>
                 <li>Drive kit with premium belts, pulleys, and stub shaft</li>
                 <li>Pipe kit with custom-formed pipes to interface with engine specifications > Radiator base designed to interface with specific engine rail</li>
@@ -336,7 +336,7 @@
             <div class="fb-text">
               <h5>OIL COOLERS</h5>
               <p>
-              We at Saaswad , make oil coolers of aluminium ..
+                We at Saaswad , make oil coolers of aluminium ..
               </p>
               <a href="acooler.php" class="site-btn">Know more</a>
 
@@ -350,7 +350,7 @@
             <div class="fb-text">
               <h5>CHARGED AIR COOLERS</h5>
               <p>
-              SAASWAD’S range of Charge air coolers (CAC)..
+                SAASWAD’S range of Charge air coolers (CAC)..
               </p>
               <a href="tacooler.php" class="site-btn">Know more</a>
 
@@ -365,7 +365,7 @@
             <div class="fb-text" style="padding-bottom: 43px">
               <h5>RADIATORS</h5>
               <p>
-              We at SAASWAD produce radiators ...
+                We at SAASWAD produce radiators ...
               </p>
               <a href="radiator.php" class="site-btn">Know more</a>
 
@@ -381,7 +381,7 @@
             <div class="fb-text" style="padding-bottom: 21px">
               <h5>MECHANICALLY BONDED RADIATORS</h5>
               <p>
-              With required emission specifications..
+                With required emission specifications..
               </p>
               <a href="mbradiator.php" class="site-btn">Know more</a>
 

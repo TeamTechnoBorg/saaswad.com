@@ -221,7 +221,7 @@
               have proven results for non automotive applications. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:black;">
+                    'Times New Roman', serif;color:black;padding-left:20px;">
                 <li> Material: Aluminum & Copper Brass</li>
                 <li>Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</li>
                 <li>Generation Engines :125 KVA to 1250 KVA</li>
@@ -341,7 +341,7 @@
             <div class="fb-text">
               <h5>HEAT EXCAHNGERS</h5>
               <p>
-              We at SAASWAD have proven capabilities and expertise ..
+                We at SAASWAD have proven capabilities and expertise ..
               </p>
               <a href="mradiator.php" class="site-btn">Know more</a>
 
@@ -356,7 +356,7 @@
             <div class="fb-text">
               <h5>OIL COOLERS</h5>
               <p>
-              We at Saaswad , make oil coolers of aluminium ..
+                We at Saaswad , make oil coolers of aluminium ..
               </p>
               <a href="acooler.php" class="site-btn">Know more</a>
 
@@ -370,7 +370,7 @@
             <div class="fb-text" style="padding-bottom: 43px">
               <h5>CHARGED AIR COOLERS</h5>
               <p>
-              SAASWAD’S range of Charge air coolers (CAC)..
+                SAASWAD’S range of Charge air coolers (CAC)..
               </p>
               <a href="tacooler.php" class="site-btn">Know more</a>
 
@@ -384,7 +384,7 @@
             <div class="fb-text" style="padding-bottom: 21px">
               <h5>MECHANICALLY BONDED RADIATORS</h5>
               <p>
-              With required emission specifications..
+                With required emission specifications..
               </p>
               <a href="mbradiator.php" class="site-btn">Know more</a>
 
@@ -446,7 +446,7 @@
             <h2 class="fw-title">Our Products</h2>
             <ul>
               <li>
-                <a class="hover1" href="./radiator.php"> Radiators</a>
+                <a class="hover1" href="./radiator.php">Radiators</a>
               </li>
               <li>
                 <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>

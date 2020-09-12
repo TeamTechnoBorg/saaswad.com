@@ -219,7 +219,7 @@
                             With required emission specifications,we at SAASWAD produce radiators that are the most efficient and optimised design for a compact frontal area. We have proven products for non automotive applications. <br>
                             <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:black;">
+                    'Times New Roman', serif;color:black;padding-left:20px;">
                                 <li>Material: Aluminum & Copper Brass</li>
                                 <li>Design Types Fin & Tube/Bar & Plate</li>
                                 <li>Industrial Power Generation Engines :125 KVA to 1250 KVA</li>
@@ -338,7 +338,7 @@
                         <div class="fb-text">
                             <h5>HEAT EXCAHNGERS</h5>
                             <p>
-                            We at SAASWAD have proven capabilities and expertise ..
+                                We at SAASWAD have proven capabilities and expertise ..
                             </p>
                             <a href="mradiator.php" class="site-btn">Know more</a>
 
@@ -353,7 +353,7 @@
                         <div class="fb-text">
                             <h5>OIL COOLERS</h5>
                             <p>
-                            We at Saaswad , make oil coolers of aluminium ..
+                                We at Saaswad , make oil coolers of aluminium ..
                             </p>
                             <a href="acooler.php" class="site-btn">Know more</a>
 
@@ -367,7 +367,7 @@
                         <div class="fb-text" style="padding-bottom: 43px">
                             <h5>CHARGED AIR COOLERS</h5>
                             <p>
-                            SAASWAD’S range of Charge air coolers (CAC)..
+                                SAASWAD’S range of Charge air coolers (CAC)..
                             </p>
                             <a href="tacooler.php" class="site-btn">Know more</a>
 
@@ -376,21 +376,21 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12">
-          <div class="feature-box">
-            <img src="img/radiator.JPG" alt="" height="200px" />
-            <div class="fb-text" style="padding-bottom: 43px">
-              <h5>RADIATORS</h5>
-              <p>
-              We at SAASWAD produce radiators ...
-              </p>
-              <a href="radiator.php" class="site-btn">Know more</a>
+                    <div class="feature-box">
+                        <img src="img/radiator.JPG" alt="" height="200px" />
+                        <div class="fb-text" style="padding-bottom: 43px">
+                            <h5>RADIATORS</h5>
+                            <p>
+                                We at SAASWAD produce radiators ...
+                            </p>
+                            <a href="radiator.php" class="site-btn">Know more</a>
 
 
 
-              <!-- <a href="" class="fb-more-btn">Read More</a> -->
-            </div>
-          </div>
-        </div>
+                            <!-- <a href="" class="fb-more-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -216,7 +216,7 @@
               We at Saaswad , make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. They are efficient for reducing high oil temperature. The designs we provide are compact , lightweight, high performance with required cooling under demanding engine conditions. <br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
-                    'Times New Roman', serif;color:black">
+                    'Times New Roman', serif;color:black;padding-left:20px;">
                 <li>Material: Aluminum</li>
                 <li>Design Types: Fin & Tube / Bar & Plate</li>
                 <li>Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures etc.</li>
@@ -334,7 +334,7 @@
             <div class="fb-text">
               <h5>CHARGED AIR COOLERS</h5>
               <p>
-              SAASWAD’S range of Charge air coolers (CAC)..
+                SAASWAD’S range of Charge air coolers (CAC)..
               </p>
               <a href="tacooler.php" class="site-btn">Know more</a>
 
@@ -348,7 +348,7 @@
             <div class="fb-text" style="padding-bottom: 43px">
               <h5>RADIATORS</h5>
               <p>
-              We at SAASWAD produce radiators ...
+                We at SAASWAD produce radiators ...
               </p>
               <a href="radiator.php" class="site-btn">Know more</a>
 
@@ -364,7 +364,7 @@
             <div class="fb-text" style="padding-bottom: 43px">
               <h5>HEAT EXCAHNGER</h5>
               <p>
-              We at SAASWAD have proven capabilities and expertise ..
+                We at SAASWAD have proven capabilities and expertise ..
               </p>
               <a href="mradiator.php" class="site-btn">Know more</a>
 
@@ -379,7 +379,7 @@
             <div class="fb-text" style="padding-bottom: 21px">
               <h5>MECHANICALLY BONDED RADIATORS</h5>
               <p>
-              With required emission specifications..
+                With required emission specifications..
               </p>
               <a href="mbradiator.php" class="site-btn">Know more</a>
 
