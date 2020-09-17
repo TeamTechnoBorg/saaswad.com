@@ -14,7 +14,7 @@ if (isset($_POST['btn-send'])) {
         $to = "info@saaswad.com";
         $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
-        $Msg = $Msg . " " . strval($No) . " " . $Address;
+        $Msg = $Msg . " " . strval($No) . " " . $Address . " " . $Email;
         if (mail($to, $Subject, $Msg, $headers)) {
             header('location:contact.php?success');
         }
