@@ -11,10 +11,10 @@ if (isset($_POST['btn-send'])) {
     if (empty($UserName) || empty($Email) || empty($Subject) || empty($Msg) || empty($No) || empty($Address)) {
         header('location:contact.php?error');
     } else {
-        $to = "info@saaswad.com";
+        $to = "kaushiv1@gmail.com";
         $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
-        $Msg = $Msg . " " . strval($No) . " " . $Address . " " . $Email;
+        $Msg = $Msg . " " . strval($No) . " " . $Address . "   " . $Email;
         if (mail($to, $Subject, $Msg, $headers)) {
             header('location:contact.php?success');
         }
