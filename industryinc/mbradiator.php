@@ -195,7 +195,7 @@
                     <h2 class="ptop" style="color: black; font-weight:bolder;padding-left:20px">Bonded Radiator</h2>
                 </div>
                 <div class="col-lg-4" style="text-align: center;">
-                    <img src="img/newimage6.png" alt="" height="350px">
+                    <img src="img/mbradiators-products.png" alt="Mb Radiators" height="350px">
                 </div>
 
             </div>

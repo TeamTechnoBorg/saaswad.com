@@ -192,7 +192,7 @@
         </div>
 
         <div class="col-lg-6">
-          <img src="img/newimage2.png" alt="" style="padding-top: 20px; margin-left:120px;">
+          <img src="img/charged-air-cooler-products.png" alt="Charged Air Cooler" style="padding-top: 20px; margin-left:120px;">
         </div>
 
       </div>

@@ -195,7 +195,7 @@
 
         </div>
         <div class="col-lg-4" style="text-align: center;">
-          <img src="img/newimage5_t.png" alt="">
+          <img src="img/industrial-radiators-products.png" alt="">
         </div>
 
       </div>
