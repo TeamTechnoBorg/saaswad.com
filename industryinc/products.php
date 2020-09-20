@@ -401,7 +401,7 @@
                 Customized Heat Exchangers
               </h2>
               <img src="img/heat_exchangers.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.php">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./heat-exchangers.php">
                 Know more
               </a>
             </div>
@@ -410,7 +410,7 @@
                 Oil Coolers
               </h2>
               <img src="img/oil-coolers-homepage.png" alt="" width="300" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./acooler.php">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./oil-coolers.php">
                 Know more
               </a>
             </div>
@@ -419,7 +419,7 @@
                 Charged Air Coolers
               </h2>
               <img src="img/14.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./tacooler.php">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./charged-air-cooler.php">
                 Know more
               </a>
             </div>
@@ -504,13 +504,13 @@
                   Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
+                <a class="hover1" href="./heat-exchangers.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
+                <a class="hover1" href="./oil-coolers.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
+                <a class="hover1" href="./charged-air-cooler.php">Charged Air Cooler</a>
               </li>
               <li>
                 <a class="hover1" href="./mbradiator.php">Mechanically Bonded Radiators</a>

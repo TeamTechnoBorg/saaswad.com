@@ -338,7 +338,7 @@
               <p>
                 We at Saaswad , make oil coolers of aluminium ..
               </p>
-              <a href="acooler.php" class="site-btn">Know more</a>
+              <a href="oil-coolers.php" class="site-btn">Know more</a>
 
               <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
@@ -352,7 +352,7 @@
               <p>
                 SAASWAD’S range of Charge air coolers (CAC)..
               </p>
-              <a href="tacooler.php" class="site-btn">Know more</a>
+              <a href="charged-air-cooler.php" class="site-btn">Know more</a>
 
 
               <!-- <a href="" class="fb-more-btn">Read More</a> -->
@@ -441,13 +441,13 @@
                 <a class="hover1" href="./radiator.php"> Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
+                <a class="hover1" href="./heat-exchangers.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
+                <a class="hover1" href="./oil-coolers.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
+                <a class="hover1" href="./charged-air-cooler.php">Charged Air Cooler</a>
               </li>
               <li>
                 <a class="hover1" href="./mbradiator.php">Mechanically Bonded Radiators</a>

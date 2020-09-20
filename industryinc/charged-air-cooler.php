@@ -2,9 +2,9 @@
 <html lang="zxx">
 
 <head>
-  <title>Oil Coolers | Saaswad Heat Transfer And Engineering Pvt Ltd</title>
+  <title>Charged Air Cooler | Saaswad Heat Transfer And Engineering Pvt Ltd</title>
   <meta charset="UTF-8" />
-  <meta name="We at Saaswad , make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. " content="SAASWAD.com" />
+  <meta name="SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers have proved very successful in cooling engine intake of air for increased power" content="SAASWAD.com" />
   <meta name="keywords" content="industry, html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -182,7 +182,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h2 class="ptop" style="color: black; font-weight:bolder;">Product/Oil Coolers</h2>
+          <h2 class="ptop" style="color: black; font-weight:bolder;">Product/Charged Air Cooler</h2>
           <!-- <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
              orci purus, sodales in est quis, blandit sollicitudin est. Nam
@@ -192,7 +192,7 @@
         </div>
 
         <div class="col-lg-6">
-          <img src="img/oil-coolers-homepage.png" alt="" style="padding-top: 20px; margin-left:320px;" height="300px">
+          <img src="img/charged-air-cooler-products.png" alt="Charged Air Cooler" style="padding-top: 20px; margin-left:120px;">
         </div>
 
       </div>
@@ -203,24 +203,25 @@
   <section class="about-section spad">
     <div class="container">
       <div class="row">
+
         <div class="col-lg-12">
           <div class="about-text">
 
-            <h2 style="font-weight: bolder;">Oil coolers and condensers</h2>
+            <h2 style="font-weight: bolder;">Charged Air Cooler</h2>
 
             <p style="
                   font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;
                 ">
-              We at Saaswad , make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. They are efficient for reducing high oil temperature. The designs we provide are compact , lightweight, high performance with required cooling under demanding engine conditions. <br>
+              SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers have proved very successful in cooling engine intake of air for increased power, improved fuel economy and emission . The CACS manufactured at SAASWAD with controlled atmosphere brazing processes as well as Mechanical bonded process in following categories :-<br>
               <ul style="list-style-type: disc; font-size: 1.25rem;
                   font-family: Cambria, Cochin, Georgia, Times,
                     'Times New Roman', serif;color:black;padding-left:20px;">
-                <li>Material: Aluminum</li>
+                <li>Material: Aluminum & Copper brass</li>
                 <li>Design Types: Fin & Tube / Bar & Plate</li>
-                <li>Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures etc.</li>
-                <li>Industrial Power Generation Engines: 250 KVA - 2000 KVA</li>
+                <li>Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures, Locomotives, DG Sets etc.</li>
+                <li>Industrial Power Generation Engines: 125 KVA-3000 KVA</li>
               </ul>
             </p>
 
@@ -235,7 +236,7 @@
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: red; border-color: red;">
                 Get Quote
               </button>
-              <a href="img/OIL COOLER.pdf" download class="btn btn-primary" style="background-color: black; border-color:black;">Brochure</a>
+              <a href="img/CHARGE AIR COOLER.pdf" download class="btn btn-primary" style="background-color: black; border-color:black;">Brochure</a>
             </div>
           </div>
         </div>
@@ -248,7 +249,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">
-            Interested in Oil coolers and condensers?
+            Interested in Charged Air Coolers?
           </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -272,7 +273,7 @@
           }
 
           ?>
-          <form action="process4.php" method="post">
+          <form action="process5.php" method="post">
             <div class="form-group">
               <!-- <label for="exampleInputPassword1">Password</label> -->
               <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Enter Name" />
@@ -281,38 +282,39 @@
               <!-- <label for="exampleInputEmail1">Email address</label> -->
               <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
               <!-- <small id="emailHelp" class="form-text text-muted"
-                      >We'll never share your email with anyone else.</small
-                    > -->
+                    >We'll never share your email with anyone else.</small
+                  > -->
             </div>
 
             <!-- <div class="form-check">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="exampleCheck1"
-                    />
-                    <label class="form-check-label" for="exampleCheck1"
-                      >Check me out</label
-                    >
-                  </div> -->
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div> -->
             <button name="btn-send" style="background-color: red; border-color: red;" class="btn btn-primary">
               Submit
             </button>
           </form>
         </div>
         <!-- <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div> -->
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
       </div>
     </div>
   </div>
+
   <section class="features-section spad" style="
         min-height: 100%;
       
@@ -328,20 +330,6 @@
             </h2>
           </div> -->
 
-        <div class="col-lg-3 col-md-12">
-          <div class="feature-box">
-            <img src="img/14.jpg" alt="Indian Railways served" height="200px" />
-            <div class="fb-text">
-              <h5>CHARGED AIR COOLERS</h5>
-              <p>
-                SAASWAD’S range of Charge air coolers (CAC)..
-              </p>
-              <a href="tacooler.php" class="site-btn">Know more</a>
-
-              <!-- <a href="" class="fb-more-btn">Read More</a> -->
-            </div>
-          </div>
-        </div>
         <div class="col-lg-3 col-md-12">
           <div class="feature-box">
             <img src="img/radiator.JPG" alt="" height="200px" />
@@ -361,13 +349,26 @@
         <div class="col-lg-3 col-md-12">
           <div class="feature-box">
             <img src="img/heat_exchangers.jpg" alt="" height="200px" />
-            <div class="fb-text" style="padding-bottom: 43px">
-              <h5>HEAT EXCAHNGER</h5>
+            <div class="fb-text">
+              <h5>HEAT EXCHANGER</h5>
               <p>
                 We at SAASWAD have proven capabilities and expertise ..
               </p>
-              <a href="mradiator.php" class="site-btn">Know more</a>
+              <a href="heat-exchangers.php" class="site-btn">Know more</a>
 
+              <!-- <a href="" class="fb-more-btn">Read More</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="feature-box">
+            <img src="img/oilcooler.JPG" alt="" height="200px" />
+            <div class="fb-text" style="padding-bottom: 43px">
+              <h5>OIL COOLERS</h5>
+              <p>
+                We at Saaswad , make oil coolers of aluminium ..
+              </p>
+              <a href="oil-coolers.php" class="site-btn">Know more</a>
 
               <!-- <a href="" class="fb-more-btn">Read More</a> -->
             </div>
@@ -390,6 +391,7 @@
       </div>
     </div>
   </section>
+
   <!-- Footer section -->
   <div class="footer-buttom">
     <div class="container">
@@ -438,13 +440,13 @@
                 <a class="hover1" href="./radiator.php"> Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
+                <a class="hover1" href="./heat-exchangers.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
+                <a class="hover1" href="./oil-coolers.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
+                <a class="hover1" href="./charged-air-cooler.php">Charged Air Cooler</a>
               </li>
               <li>
                 <a class="hover1" href="./mbradiator.php">Mechanically Bonded Radiators</a>

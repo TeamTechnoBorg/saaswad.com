@@ -6,16 +6,16 @@ if (isset($_POST['btn-send'])) {
 
 
     if (empty($UserName) || empty($Email)) {
-        header('location:tacooler.php?error');
+        header('location:charged-air-cooler.php?error');
     } else {
         $to = "kaushiv1@gmail.com";
         $Msg = $UserName . " " . $Email;
         $from = "kaushiv@saaswad.com";
         $headers = "From:" . $from;
         if (mail($to, "I am interested in Charged Air Cooler", $Msg, $headers, $Email)) {
-            header('location:tacooler.php?success');
+            header('location:charged-air-cooler.php?success');
         }
     }
 } else {
-    header("location:tacooler.php");
+    header("location:charged-air-cooler.php");
 }
