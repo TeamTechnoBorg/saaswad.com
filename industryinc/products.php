@@ -409,7 +409,7 @@
               <h2>
                 Oil Coolers
               </h2>
-              <img src="img/oil-coolers-homepage.png" alt="" width="300" />
+              <img src="img/oil-coolers.png" alt="" width="300" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./oil-coolers.php">
                 Know more
               </a>
@@ -658,18 +658,18 @@ function myFunction() {
       });
     });
   </script>
-  // <script type="text/JavaScript">
-    //     //Script courtesy of BoogieJack.com
-// var message="NoRightClicking";
-// function defeatIE() {if (document.all) {(message);return false;}}
-// function defeatNS(e) {if 
-// (document.layers||(document.getElementById&&!document.all)) {
-// if (e.which==2||e.which==3) {(message);return false;}}}
-// if (document.layers) 
-// {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
-// else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
-// document.oncontextmenu=new Function("return false")
-// </script>
+  <script type="text/JavaScript">
+    //Script courtesy of BoogieJack.com
+      var message="NoRightClicking";
+      function defeatIE() {if (document.all) {(message);return false;}}
+      function defeatNS(e) {if
+      (document.layers||(document.getElementById&&!document.all)) {
+      if (e.which==2||e.which==3) {(message);return false;}}}
+      if (document.layers)
+      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+      else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+      document.oncontextmenu=new Function("return false")
+    </script>
 </body>
 
 </html>

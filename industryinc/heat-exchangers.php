@@ -192,7 +192,7 @@
         </div>
 
         <div class="col-lg-6">
-          <img src="img/heat-exchangers-homepage.png" alt="" style="padding-top: 20px; margin-left:120px;">
+          <img src="img/heat-exchangers.png" alt="" style="padding-top: 20px; margin-left:120px;">
         </div>
 
       </div>

@@ -192,7 +192,7 @@
         </div>
 
         <div class="col-lg-6">
-          <img src="img/oil-coolers-homepage.png" alt="" style="padding-top: 20px; margin-left:320px;" height="300px">
+          <img src="img/oil-coolers.png" alt="" style="padding-top: 20px; margin-left:320px;" height="300px">
         </div>
 
       </div>
