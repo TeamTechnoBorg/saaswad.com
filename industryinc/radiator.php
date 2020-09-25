@@ -4,7 +4,7 @@
 <head>
   <title>Industrial Radiators | Saaswad Heat Transfer And Engineering Pvt Ltd</title>
   <meta charset="UTF-8" />
-  <meta name="we at SAASWAD produce radiators that are most efficient for a compact frontal area." content="SAASWAD.com" />
+  <meta name="Description" content="we at SAASWAD produce radiators that are most efficient for a compact frontal area." />
   <meta name="keywords" content="industry, html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -195,7 +195,7 @@
 
         </div>
         <div class="col-lg-4" style="text-align: center;">
-          <img src="img/industrial-radiators-products.png" alt="">
+          <img src="img/industrial-radiators-products.png" alt="Industrial Radiators">
         </div>
 
       </div>

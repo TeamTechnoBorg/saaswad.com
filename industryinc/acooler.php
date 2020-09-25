@@ -2,9 +2,9 @@
 <html lang="zxx">
 
 <head>
-  <title>Oil Coolers | Saaswad Heat Transfer And Engineering Pvt Ltd</title>
+  <title>Oil Coolers | Saaswad Heat Transfer And Engineering</title>
   <meta charset="UTF-8" />
-  <meta name="We at Saaswad , make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. " content="SAASWAD.com" />
+  <meta name="Description" content="We at Saaswad , make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. " />
   <meta name="keywords" content="industry, html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -130,7 +130,7 @@
     <div class="site-navbar">
       <!-- Logo -->
       <a href="main.html" class="site-logo">
-        <img src="img/logo_saswad.png" height="80" alt="" />
+        <`img src`="img/logo_saswad.png" height="80" alt="" />
 
         <!-- <span style="color: black;">Saaswad</span> -->
       </a>
