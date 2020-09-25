@@ -468,13 +468,13 @@
 									Radiators</a>
 							</li>
 							<li>
-								<a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
+								<a class="hover1" href="./heat-exchangers.php">Custom designed heat exchangers</a>
 							</li>
 							<li>
-								<a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
+								<a class="hover1" href="./oil-coolers.php">Oil coolers and condensers</a>
 							</li>
 							<li>
-								<a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
+								<a class="hover1" href="./charged-air-cooler.php">Charged Air Cooler</a>
 							</li>
 							<li>
 								<a class="hover1" href="./mbradiator.php">Mechanically Bonded Radiators</a>

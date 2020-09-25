@@ -192,7 +192,7 @@
                     <!-- <a href="#expertise" class="site-btn">Know More</a> -->
                 </div>
                 <div class="col-lg-4" style="text-align: center;">
-                    <h2 class="ptop" style="color: black; font-weight:bolder;padding-left:20px">Bonded Radiator</h2>
+                    <h1 class="ptop" style="font-size: 38px;margin-bottom: 30px;color: black; font-weight:bolder;padding-left:20px">Bonded Radiator</h1>
                 </div>
                 <div class="col-lg-4" style="text-align: center;">
                     <img src="img/mbradiators-products.png" alt="Mb Radiators" height="350px">
@@ -340,7 +340,7 @@
                             <p>
                                 We at SAASWAD have proven capabilities and expertise ..
                             </p>
-                            <a href="mradiator.php" class="site-btn">Know more</a>
+                            <a href="heat-exchangers.php" class="site-btn">Know more</a>
 
 
                             <!-- <a href="" class="fb-more-btn">Read More</a> -->
@@ -355,7 +355,7 @@
                             <p>
                                 We at Saaswad , make oil coolers of aluminium ..
                             </p>
-                            <a href="acooler.php" class="site-btn">Know more</a>
+                            <a href="oil-coolers.php" class="site-btn">Know more</a>
 
                             <!-- <a href="" class="fb-more-btn">Read More</a> -->
                         </div>
@@ -369,7 +369,7 @@
                             <p>
                                 SAASWAD’S range of Charge air coolers (CAC)..
                             </p>
-                            <a href="tacooler.php" class="site-btn">Know more</a>
+                            <a href="charged-air-cooler.php" class="site-btn">Know more</a>
 
                             <!-- <a href="" class="fb-more-btn">Read More</a> -->
                         </div>
@@ -448,13 +448,13 @@
                                 <a class="hover1" href="./radiator.php"> Radiators</a>
                             </li>
                             <li>
-                                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
+                                <a class="hover1" href="./heat-exchangers.php">Custom designed heat exchangers</a>
                             </li>
                             <li>
-                                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
+                                <a class="hover1" href="./oil-coolers.php">Oil coolers and condensers</a>
                             </li>
                             <li>
-                                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
+                                <a class="hover1" href="./charged-air-cooler.php">Charged Air Cooler</a>
                             </li>
                             <li>
                                 <a class="hover1" href="./mbradiator.php">Mechanically Bonded Radiators</a>

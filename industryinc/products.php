@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-  <title>Products | Saaswad Heat Transfer And Engineering Pvt Ltd</title>
+  <title>Our Products | Saaswad Heat Transfer And Engineering</title>
   <meta charset="UTF-8" />
   <meta name="description" content="Saaswad provides with products such as mb radiators,oil coolers,industrail radiators etc" />
   <meta name="keywords" content="industry, html" />
@@ -391,7 +391,7 @@
               <h2>
                 Industrial Radiators
               </h2>
-              <img src="img/newimage5_t.png" alt="" height="400px" />
+              <img src="img/industrial-radiators-products.png" alt="industrial radiators" height="400px" />
               <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./radiator.php">
                 Know more
               </a>
@@ -401,7 +401,7 @@
                 Customized Heat Exchangers
               </h2>
               <img src="img/heat_exchangers.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./mradiator.php">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./heat-exchangers.php">
                 Know more
               </a>
             </div>
@@ -409,8 +409,8 @@
               <h2>
                 Oil Coolers
               </h2>
-              <img src="img/oil-coolers-homepage.png" alt="" width="300" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./acooler.php">
+              <img src="img/oil-coolers.png" alt="" width="300" />
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./oil-coolers.php">
                 Know more
               </a>
             </div>
@@ -419,7 +419,7 @@
                 Charged Air Coolers
               </h2>
               <img src="img/14.jpg" alt="" width="500" />
-              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./tacooler.php">
+              <a style="display: table-caption; margin-top: 10px;" class="site-btn" href="./charged-air-cooler.php">
                 Know more
               </a>
             </div>
@@ -504,13 +504,13 @@
                   Radiators</a>
               </li>
               <li>
-                <a class="hover1" href="./mradiator.php">Custom designed heat exchangers</a>
+                <a class="hover1" href="./heat-exchangers.php">Custom designed heat exchangers</a>
               </li>
               <li>
-                <a class="hover1" href="./acooler.php">Oil coolers and condensers</a>
+                <a class="hover1" href="./oil-coolers.php">Oil coolers and condensers</a>
               </li>
               <li>
-                <a class="hover1" href="./tacooler.php">Charged Air Cooler</a>
+                <a class="hover1" href="./charged-air-cooler.php">Charged Air Cooler</a>
               </li>
               <li>
                 <a class="hover1" href="./mbradiator.php">Mechanically Bonded Radiators</a>
@@ -660,16 +660,16 @@ function myFunction() {
   </script>
   <script type="text/JavaScript">
     //Script courtesy of BoogieJack.com
-var message="NoRightClicking";
-function defeatIE() {if (document.all) {(message);return false;}}
-function defeatNS(e) {if 
-(document.layers||(document.getElementById&&!document.all)) {
-if (e.which==2||e.which==3) {(message);return false;}}}
-if (document.layers) 
-{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
-else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
-document.oncontextmenu=new Function("return false")
-</script>
+      var message="NoRightClicking";
+      function defeatIE() {if (document.all) {(message);return false;}}
+      function defeatNS(e) {if
+      (document.layers||(document.getElementById&&!document.all)) {
+      if (e.which==2||e.which==3) {(message);return false;}}}
+      if (document.layers)
+      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+      else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+      document.oncontextmenu=new Function("return false")
+    </script>
 </body>
 
 </html>
