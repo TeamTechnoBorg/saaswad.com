@@ -165,7 +165,7 @@
           <li>
             <a href="products.php">Products</a>
           </li>
-          <li><a href="blog.html">Facilities</a></li>
+          <li><a href="facilities.html">Facilities</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
@@ -402,7 +402,7 @@
             <li><a href="main.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="products.php">Products</a></li>
-            <li><a href="blog.html">Facilities</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
