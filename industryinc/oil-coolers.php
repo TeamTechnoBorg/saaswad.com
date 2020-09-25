@@ -102,6 +102,11 @@
         display: block;
         padding-top: 55%;
       }
+
+      .cover_img {
+        padding-top: 20px;
+        margin-left: 320px;
+      }
     }
   </style>
 </head>
@@ -191,8 +196,8 @@
           <!-- <a href="#expertise" class="site-btn">Know More</a> -->
         </div>
 
-        <div class="col-lg-6">
-          <img src="img/oil-coolers.png" alt="" style="padding-top: 20px; margin-left:320px;" height="300px">
+        <div class="col-lg-6" style="text-align: center;">
+          <img src="img/oil-coolers.png" alt="" class="cover_img" height="300px">
         </div>
 
       </div>

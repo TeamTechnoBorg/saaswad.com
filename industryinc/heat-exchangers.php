@@ -102,6 +102,11 @@
         display: block;
         padding-top: 55%;
       }
+
+      .cover_img {
+        padding-top: 20px;
+        margin-left: 120px;
+      }
     }
   </style>
 </head>
@@ -191,8 +196,8 @@
           <!-- <a href="#expertise" class="site-btn">Know More</a> -->
         </div>
 
-        <div class="col-lg-6">
-          <img src="img/heat-exchangers.png" alt="" style="padding-top: 20px; margin-left:120px;">
+        <div class="col-lg-6" style="text-align: center;">
+          <img src="img/heat-exchangers.png" alt="" class="cover_img">
         </div>
 
       </div>

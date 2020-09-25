@@ -102,6 +102,11 @@
         display: block;
         padding-top: 55%;
       }
+
+      .cover_img {
+        padding-top: 20px;
+        margin-left: 120px;
+      }
     }
   </style>
 </head>
@@ -191,8 +196,8 @@
           <!-- <a href="#expertise" class="site-btn">Know More</a> -->
         </div>
 
-        <div class="col-lg-6">
-          <img src="img/charged-air-cooler.png" alt="Charged Air Cooler" style="padding-top: 20px; margin-left:120px;">
+        <div class="col-lg-6" style="text-align: center;">
+          <img src="img/charged-air-cooler.png" class="cover_img" alt="Charged Air Cooler">
         </div>
 
       </div>
